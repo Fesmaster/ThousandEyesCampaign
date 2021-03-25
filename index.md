@@ -8,8 +8,8 @@ Hello! If you are here and do not know what this is, then feel free to poke arou
 ## Character Options
 
  * [Races](races.html)
- * Class Changes
- * Backgrounds
+ * [Class Changes](classes.html)
+ * [Backgrounds](backgrounds.html)
  * Weapons, Armor,and Items
 
 ## World Information
