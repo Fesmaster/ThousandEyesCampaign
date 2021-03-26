@@ -7,10 +7,10 @@ Hello! If you are here and do not know what this is, then feel free to poke arou
 
 ## Character Options
 
- * [Races](races.html)
- * [Class Changes](classes.html)
- * [Backgrounds](backgrounds.html)
- * Weapons, Armor,and Items
+ * [Races](charoptions/races.html)
+ * [Class Changes](charoptions/classes.html)
+ * [Backgrounds](charoptions/backgrounds.html)
+ * [Weapons, Armor,and Items](charoptions/items.html)
 
 ## World Information
 
