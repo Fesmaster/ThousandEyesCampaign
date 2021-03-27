@@ -5,6 +5,7 @@ Quicklinks:
  * [Money](#money)
  * [The Datapad](#the-datapad)
  * [Armor](#armor)
+ * [Weapons](#weapons)
 
 ## Money
 Money is entirely in the form of *credits*. A credit is worth about a silver piece. All money is actually a form of crytocurrency, and is kept on the creature's datapad. This makes looting money off of dead enemies difficult, but not impossible, if they have a datapad you can take. Credits are sometimes kept on special "Credit Chips", a type of card used to store them in a more stable state. Credits on a credit chip cannot be directly spent, but have to be trasfered to the Datapad. If a creature has a credit chip, they can put more credits on it from their Datapad. Enemies defeated that have credit chips can have this item looted, and the credits on it taken by the players too.
@@ -32,7 +33,7 @@ Software:
  * Entertainment and media
 
 ## Armor
-This table details the types of armor available in general, however, other types can also be found or purchased. 
+This table details the general types of armor most commonly available, however, other types can also be found or purchased. Further, each particular type is a generalization of specific armors made by various companies, and having various other features or drawbacks. 
 
 |**Armor**              |**Cost**   |**Armor Class (AC)**   |**Strength**   |**Weight** |
 |-----------------------|-----------|-----------------------|---------------|-----------|
@@ -54,3 +55,54 @@ This table details the types of armor available in general, however, other types
 |                       |           |                       |               |           |
 
 Some armors are designed to be used as a set. This is indicated in the above table by the indents. When worn as a set, the final AC is calculated using the table above. For example, wearing a Light Torso Vest and Light Helmet will give an AC of 13+1+DEX(max 2), or, 14-16, depending on DEX. However, when worn in combinations that are not part of the same set, a penalty of -1 AC for each mismatch is applied. So, if you wear the Light Torso Vest with the Heavy helmet, you get an AC of 13+2+DEX(max 2) - 1(penalty) for a total of 14-16 (no improvement). If Advanced Optics were added, it would make it even worse, 13+2+1+DEX(max 2) = 3(penalty, 3 mismatches), or 13-15, which is less than without the Optics. 
+
+
+## Weapons
+Like armor, there are a wild variety of weapons, and thus only the general types are listed here. The exact models that can be found or purchased are often slightly different. More information about the types of weapons and the models available is incoming. It should also be noted that all weapon types from the PHB are valid, though not necessarily made in the same manner or with the same materials as they would be in medieval times.
+
+### Special Weapon Properties
+Firearms in particular have several properties that they use that are not in the PHB. These are listed here.
+
+**Automatic.** Automatic weapons fire multiple rounds. For every two that the attack roll is greater than the target's AC, the number of damage die is increased by one. Modifiers to the damage are only applied once. For example, if an attack rolls an 18 against an AC 11 enemy, and the damage die id 1d4, then the damage roll is 4d4 (one for hitting, one for being above 13, one for being above 15, and one for being above 17), and then, once that is rolled, the bonus to damage is added.
+
+**Burst.** Burst shot weapons fire three rounds. On a hit, at least one shot hits. If the attack roll is at least five over the target's AC, then two are rolled. If the attack roll is at least ten over the target's AC, then all three are rolled. Each of these three damages are rolled separately, and bonuses applied seperately to each, like the Magic Missile spell. So, if an attack results in two hitting, with a damage die of 1d6, and a damage bonus of +4, the total damage would be 1d6+4 + 1d6+4, or, 2d6+8.
+
+**Scope** Scope weapons are able to have a scope attached onto them to increase their accuracy. While it is true that most weapons can have a scope taped to them, or even mounted on custom brackets, not all weapons benefit from this. The exact benefit of the scope that is attached is determined by the model of scope and the DEX score of the creature using the weapon. These weapons do not come with a scope built in.
+
+|**Name**               |**Cost**   |**Damage**     |**Weight** |**Properties**                         |
+|-----------------------|-----------|---------------|-----------|---------------------------------------|
+|*Force Weapons*        |           |               |           |                                       |
+|Forceknife             |200 C      |1d4 piercing   |0.5 lbs    |Finesse, Light, Thrown(range 20/60)    |
+|Short Forceblade       |500 C      |1d6 piercing   |2 lbs      |Finesse, Light                         |
+|Forceblade             |600 C      |1d8 slashing   |2 lbs      |Versatile (1d10)                       |
+|Great Forceblade       |800 C      |2d6 slashing   |3 lbs      |Heavy, Two-Handed                      |
+|Hand Forceaxe          |300 C      |1d6 slashing   |1 lbs      |Light, Thrown(range 20/60)             |
+|Forceaxe               |400 C      |1d8 slashing   |3 lbs      |Versatile (1d10)                       |
+|Great Forceaxe         |700 C      |1d12 slashing  |5 lbs      |Heavy, Two-Handed                      |
+|                       |           |               |           |                                       |
+|*Firearms*             |           |               |           |All: Ammunition                        |
+|Small Caliber Pistol   |150 C      |1d4 piercing   |1 lbs      |Light, Range(50/100)                   |
+|Large Caliber Pistol   |220 C      |1d6 piercing   |1 lbs      |Light, Range(80/160)                   |
+|Simple Rifle           |450 C      |1d6 piercing   |8 lbs      |Range(120/300), Burst, Two-Handed, Scope|
+|Automatic Rifle        |600 C      |1d4 piercing   |8 lbs      |Range(140/300), Automatic, Two-Handed  |
+|Heavy Rifle            |550 C      |1d8 piercing   |12 lbs     |Range(50/120), Heavy, Two-Handed       |
+|Sniper Rifle           |1000+ C    |2d6+ piercing  |27 lbs     |Range(500+/1400+), Heavy, Two-Handed, Scope|
+|                       |           |               |           |                                       |
+|*Throwables*           |           |               |           |All: Thrown Range(20/60)               |
+|Spellbomb              |450 C      |4d6 various    |1 lbs      |Special: Elemental damage on hit.      |
+|Grenade (damageing)    |220 C      |4d6 Bludgeoning|1 lbs      |Special: can be modified for Fire      |
+|Grenade (frag)         |250 C      |4d4 Piercing   |1 lbs      |                                       |
+|Smokebomb              |220 C      |0              |l lbs      |Special: Causes 6 cu. ft of smoke      |
+|                       |           |               |           |                                       |
+
+## Items
+Among the enormous number of potential items available, some are mentioned here. Most of the items listed in the PHB are also available. 
+
+|**Item**|**Cost**|**Weight**|
+|--------|--------|----------|
+|Spellshot Ammunition Pack|50 C|0.1 lbs|
+|Energy Bank|60 C|0.2 lbs|
+|Assorted curonic circuit components|30 C|0.5 lbs|
+|Assortec electrical components|30 C|0.5 lbs|
+|Rangefinder|650 C|1.0 lbs|
+|Nightvision equitment|340 C|1.0 lbs|

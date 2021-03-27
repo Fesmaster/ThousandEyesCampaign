@@ -13,10 +13,15 @@ Hello! If you are here and do not know what this is, then feel free to poke arou
  * [Weapons, Armor,and Items](charoptions/items.html)
 
 ## World Information
+[Lore Main Page](lore)
 
  * Planets
  * Cities
  * Ships and Vehicles
  * Orginizations
  * Important People
- * Nonplayable Races
+
+## Extra Rules
+
+ * Ships and Ship Combat
+ * Controlling the Battlefield
