@@ -1,6 +1,6 @@
 # Avarian Characters
 
-|[Race](#avarian-traits)|[Class](#the-class)|[Cantrips](#avarian-cantrips)
+|[Race](#avarian-traits)|[Class](#the-class)|[Subclass](#subclass)|[Cantrips](#avarian-cantrips)
 
 ---
 
@@ -123,9 +123,14 @@ When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can i
 
 
 ### Magical Manipulations
-At 10th level, you have learned to manipulate the nature of magical effects around you by manipulateing the curon field. You can expend two Supercharge Points to change the damage type of a cantrip you cast, or, as a reaction, spells cast by others or effects of magical artifacts. If the caster is not friendly, you must suceed on a Intelligence check against their spell save DC for your manipulations to have any effect. 
+At 10th level, you have learned to manipulate the nature of magical effects around you by manipulateing the Curon field. You can expend two Supercharge Points to change the damage type of a cantrip you cast, or, as a reaction, spells cast by others or effects of magical artifacts. If the caster is not friendly, you must suceed on a Intelligence check against their spell save DC for your manipulations to have any effect. 
 
 However, the damage types Piercing, Slashing, and Bludgeoning cannot be chosen, as they are more representative of damage from a tactile source rather than from a magical source.
+
+### Magic Divergance
+At 20th level, your mastery of sublte manipulations of the Curon Field allows you to divert it around an individual, though it takes a great deal of strength. 
+
+Once per day, you can prevent a creature from casting a spell. You can do this as a reaction or as a held action. They loose the spell slot, but the spell simply has no effect. This can be used to interrupt long cast spells, in which they only know of the failure at the end of the casting time.
 
 ## Subclass
 Different Averians specialize in different areas. Those are listed here.
@@ -151,7 +156,23 @@ At 11th level, you have the experience to build mechanical and technological con
 
 At 18th level, the maximum size is increased to a Large machine. Building a Large machiene takes four turns.
 
+#### Weapons Technician
+At 14th level, your experiences in engineering allow you to build and modify all sorts of weapons, including Forceblades, Spellshots, and other firearms. You are as skilled as a professional, and can install any weapon modification without a check, using your tools. You can also use your tools to construct a new weapon or weapon modification from various parts, though the DM may ask for a tool check. 
+
+At 18th level, your skill with weapons allows you to build larger mounted weapons, like turrets, when you have the parts and time.
+
+
+
 ## Avarian Cantrips
+[Special Cantrips](avarian-cantrips.html) that Unique to this Race/Class:
+1. [Activate/Deactivate](avarian-cantrips.html#activatedeactivate)
+2. [Bind](avarian-cantrips.html#bind)
+3. [Change Form](avarian-cantrips.html#change-form)
+4. [Change Matter](avarian-cantrips.html#change-matter)
+5. [Charge](avarian-cantrips.html#charge)
+6. [Logic](avarian-cantrips.html#logic)
+7. [Manipulate](avarian-cantrips.html#manipulate)
+
 Default Cantrips (From Official Sourcebooks):
 1. [Acid Splash](https://www.dnd-spells.com/spell/acid-splash)
 2. [Blade Ward](https://www.dnd-spells.com/spell/blade-ward)
@@ -184,5 +205,3 @@ Default Cantrips (From Official Sourcebooks):
 29. [Thunderclap](https://www.dnd-spells.com/spell/thunderclap)
 30. [Toll the Dead](https://www.dnd-spells.com/spell/toll-the-dead)
 
-Special Cantrips (Unique to this Race/Class):
-**TODO**
