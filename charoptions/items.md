@@ -106,3 +106,16 @@ Among the enormous number of potential items available, some are mentioned here.
 |Assortec electrical components|30 C|0.5 lbs|
 |Rangefinder|650 C|1.0 lbs|
 |Nightvision equitment|340 C|1.0 lbs|
+
+
+### Equitment Packs
+These packs are re-definitions of the existing Packs. (as well as a new one)
+
+ * **Burglar's Pack (160 C)** Includes a backpack, a bag of 1000 ball bearings, 10 ft of string (strong enough to lift 750 lbs) A penlight, a crowbar, a bottle of superglue, a lighter, a set of small tools (screwdrivers, pliers, and a wire saw), a mess kit, and 10 days of rations. There is also 50 ft. of dark-colored climbing rope attached to the outside.
+ * **Diplomat's Pack (390 C)** Includes a small lockbox, two sets of fine clothes, A secure storage crystal (think USB flash drive), various perfumes or deodorants, and fine toiletries. 
+ * **Dungeoneer's Pack (120 C)** Includes a backpack, a crowbar, a hammer, A collapsible 10ft ladder, a headlamp, a large flashlight, a lighter, ten days of rations, and a water bottle. There is also 50 ft. of climbing rope attached to the outside.
+ * **Entertainer's Pack (400 C)** Includes a backpack, a sleeping bag, two costumes, a flashlight, five days of rations, a water bottle, and a disguise kit.
+ * **Explorer's Pack (100 C)** Includes a backpack, a sleeping bag, a mess kit, a lighter, two signal flares, a flashlight, a thermal aluminized blanket (Space Blanket), ten days of rations, and two water bottles. It also has 50 ft. of climbing rope attached to the outside.
+ * **Philosopher's Pack (Priest's Pack) (190 C)** Includes a backpack, a blanket, a flashlight and lantern, a lighter, a notebook and pen, and a water bottle. If the owner is religious, it also containes the items associated with his/her worship.
+ * **Scholar's Pack (400 C)** Includes a backpack, a technical book, a notebook and pen, and a Storage Crystal (think USB Flash Drive)
+ * **Mechanic's Pack (350 C) NEW** Includes a backpack, tinkerer's tools, several spare crystals of various types, a leather work apron, a set of protective goggles, thick gloves, and a waterbottle. If the owner is Avarian, it also contains several spheres or rods of various types of metal, able to be transmuted as needed.

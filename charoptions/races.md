@@ -3,7 +3,7 @@ There are a vast number of races, though, only a few are playable. Non-playable 
 
 ### Ariveros
 The Ariveros are a proud race, and the most technologically advanced. They are the founders and rulers of a vast empire, the Averian Empire. It is within this empire that our story takes place.
-All information for making an Avarian character can be found on their page: [Ariverian Characters](NOLINK). 
+All information for making an Avarian character can be found on their page: [Averian Characters](avarian-characters.html). 
 
 It should be noted that making a character of the Avarian race requires making the character's class the Avarian    class. In other words, the race and class are combined.
 
