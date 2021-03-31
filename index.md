@@ -11,12 +11,12 @@ Hello! If you are here and do not know what this is, then feel free to poke arou
  * [Class Changes](charoptions/classes.html)
  * [Backgrounds](charoptions/backgrounds.html)
  * [Weapons, Armor,and Items](charoptions/items.html)
- * [Avarian Characters](charoptions/avarian_characters.html)
+ * [Avarian Characters](charoptions/avarian-characters.html)
 
 ## World Information
 [Lore Main Page](lore)
 
- * Planets
+ * [Planets](lore/planets-interactive)
  * Cities
  * Ships and Vehicles
  * Orginizations

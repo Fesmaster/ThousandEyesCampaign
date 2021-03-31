@@ -62,7 +62,7 @@ All Proficiencies are handled by the class.
 |17th   |+6         |9           |                                   |
 |18th   |+6         |9           |Subclass Feature                   |
 |19th   |+6         |10          |Ability Score Improvement          |
-|20th   |+6         |10          |                                   |
+|20th   |+6         |10          |Magic Divergance                   |
 
 ### Creating an Avarian
 Avarian children spend the first 20 or so years of life gaining their own experiences, their own learning, discovering who they are. While most are happy to go and settle down after this, often getting a job before working in public office, or perhaps joining the military, an adventurous few set out on their own. They will often fulfill their civil duties in unique ways, becoming the marshal of a colony, or working on an Imperial Exploration Vessel, or becoming the liaison for a group on non-Avarian contractors.

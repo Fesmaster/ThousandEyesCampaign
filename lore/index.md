@@ -15,7 +15,7 @@ Here you will find the main lore index, a good place to look for information.
  * The Grenier
 
 ## Regions and Locations
- * Planets Interactive Map (Hopefully!)
+ * [Planets Interactive Map](planets-interactive), or a [Planet List](planets)
  * Cities
  * Galactic Regions
  

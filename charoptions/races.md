@@ -7,13 +7,15 @@ All information for making an Avarian character can be found on their page: [Ave
 
 It should be noted that making a character of the Avarian race requires making the character's class the Avarian    class. In other words, the race and class are combined.
 
+The Avarian homeworld is the planet of [Avalon](../lore/planets/avalon.html).
+
 ### Humans
 Humans are the prolific race who possess great ingenuity and intellect for such a short-lived species. There are no changes to Humans from the PHB.
 
 ### Telwar
-The Telwar are a strange race, with dark skin and strange hollow structures on their heads. They possess no hair whatsoever, and do not have what can be called ears. However, the hollow structures on the back and sides of their heads function in much the same way, but at a more precise level, giving them very keen hearing. This is a key survival attribute from their homeworld, nearly entirely covered in thick jungle, and full of predators.
+The Telwar are a strange race, with dark skin and strange hollow structures on their heads. They possess no hair whatsoever, and do not have what can be called ears. However, the hollow structures on the back and sides of their heads function in much the same way, but at a more precise level, giving them very keen hearing. This is a key survival attribute from their homeworld [Tel-Avan](../lore/planets/tel-avan.html), nearly entirely covered in thick jungle, and full of predators.
 
-The Telwar are often considered the second most advanced race, and the only one besides the Ariveros to have developed space travel. It is true that they are far behind the Ariveros in the realm of technology, but they are still significantly above humans.
+The Telwar are often considered the second most advanced race, and the only one besides the Ariveros to have developed space travel. It is true that they are far behind the Ariveros in the realm of technology, but they are still significantly above humans. They base their technology around biotechnology and bioengineering, developing tech that grows itself.
 
 For player statistics, use the stats of elves (any variety) with these changes: 
  * Fey Ancestry is removed. In its place, you gain: 
