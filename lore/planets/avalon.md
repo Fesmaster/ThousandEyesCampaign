@@ -26,3 +26,7 @@ But how to access these buildings? Each one has at least one teleport array just
 The further you get from the spines, the less rich the city gets. While there are no "poor" here, indeed, there is always need for more workers, there are those who are less well-to-do. While no one lives in buildings that float above the spines, the housing areas further from it are filled with the less fortunate.
 
 The center pentagon where the five arms of the city meet is a special place. No flying towers are allowed in, and it legally is not part of the planet. It is the seat of government for the entire Empire. It is in this small segment that the offices of the Exeutors and the Senate Building are, as well as Starfleet Command, the primary building of the Department of War and the central military authority of the Empire. The entire area is a no-fly zone, and access is monitored and, if nesecary, restricted. 
+
+
+## Avarians of Avalon
+TODO
