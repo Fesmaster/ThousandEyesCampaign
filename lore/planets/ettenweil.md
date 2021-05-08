@@ -18,6 +18,7 @@ Due to the nature of the planet, it is not exactly a tourist destination. Being 
 Ettenweil is not considered an independant planet, and falls under direct Imperial Law. It does not have its own government.
 
 ## Iuvernia
+
 |[Climate and Geography](#climate-and-geography)|[Flora](#flora)|[Fauna](#fauna)|[Cities](#cities)|
 
 |[Human Inhabitants](#human-inhabitants)|[Culture](#culture-dress-and-arts)|[Religion](#religion-and-philosophy)|[Technology](#technology)|[Buisness](#buisness-and-work)|

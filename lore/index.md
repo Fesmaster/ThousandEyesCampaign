@@ -6,7 +6,7 @@ Here you will find the main lore index, a good place to look for information.
  * Laws of the Empire
  * History of the Empire
  * Major Organizations
- * Art and Culture
+ * [Art and Culture](avarian-culture.html)
  * Science and Technology
 
 ## The terretories beyond
@@ -24,3 +24,6 @@ Here you will find the main lore index, a good place to look for information.
  * Current Government Leaders
  * Famous Individuals
  * Criminal Factions and Leaders
+
+## Technology
+ * [Spacecraft](spacecraft.html) 
