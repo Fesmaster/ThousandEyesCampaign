@@ -108,7 +108,7 @@ Your spellcasting ability is Intelligence. You use Intelligence whenever a spell
 You can use many different types of items as your casting focus, from a standard Arcane Focus, or your tools, or some sort of family memento. 
 
 ### Supercharged Magic
-At 2nd level, you have learned to manipulate the curon field (Weave of Magic for pleb wizards) to enhance a magical effect. You can do this to cantrips you cast, or, as a reaction cantrips and spells cast by others and the magic effects of magic items. To do so, you must spend a supercharge point. There are three possible effects:
+At 2nd level, you have learned to manipulate the curon field (Weave of Magic for pleb wizards) to enhance a magical effect. You can do this to cantrips you cast, or, as a reaction cantrips and spells cast by others and the magic effects of magic items. This does not apply to attacks from spellshots or forceblades. To do so, you must spend a supercharge point. There are three possible effects:
 1) If the spell has a duration equal to or greater than 1 minute, you can extend it up to twice its natural duration, with a maximum value of 24 hours.
 2) If the spell requires an attack roll, you can add a 1d4 to that attack roll.
 3) If the spell requires a saving throw, you can increase the DC of the saving throw by 1d4.
@@ -130,7 +130,7 @@ However, the damage types Piercing, Slashing, and Bludgeoning cannot be chosen, 
 ### Magic Divergance
 At 20th level, your mastery of sublte manipulations of the Curon Field allows you to divert it around an individual, though it takes a great deal of strength. 
 
-Once per day, you can prevent a creature from casting a spell. You can do this as a reaction or as a held action. They loose the spell slot, but the spell simply has no effect. This can be used to interrupt long cast spells, in which they only know of the failure at the end of the casting time.
+Once per encounter, you can prevent a creature from casting a spell. You can do this as a reaction or as a held action. They loose the spell slot, but the spell simply has no effect. This can be used to interrupt long cast spells, in which they only know of the failure at the end of the casting time. This can also prevent magic items from having any effect, or spells/items/potions that give status effects from having their effect, until the start of your next turn. This functions like an antimagic field, except it cannot be detected or dispelled. There is no save to resist this effect.
 
 ## Subclass
 Different Averians specialize in different areas. Those are listed here.
@@ -146,15 +146,15 @@ It takes two hours to make a basic anamatronic, which can move around, but does 
 Once constructed, you can choose to use your datapad to see what the creature sees and hear what it hears, and remote pilot it, at a distance up to 500 ft.
 
 #### Vehicle Proficiencies
-When you choose the Greasemonkey sublcass at 3rd level, your experience with various vehicles allows you to pilot them to a degree of proficiency. You gain proficency with all kinds of vehicles, including land, sea, and space vehicles.
+When you choose the Greasemonkey sublcass at 3rd level, your experience with various vehicles allows you to pilot them to a degree of proficiency. You gain proficiency with all kinds of vehicles, including land, sea, air, and space vehicles.
 
 #### Well-Equipped.
 At 6th level, your mastery of tools allows you to know what tools you need, and have ones that are easily modified for new jobs. Your Tinkerer's Tools can be used to make checks for all types of Artisan's Tools.
 
 #### On-The-Fly Engineering
-At 11th level, you have the experience to build mechanical and technological contraptions quickly, improvising parts, in significantly less time than normal. You can quickly build a machine with a size up to large to perform any action that the DM considers logical. Examples include a small catapult, a portable missile, a trap, or even a small turret. The DM may require some parts to be needed, but most can be scavenged from things you have in your pockets or are in the area. Doing so takes one turn for each size (a Tiny machiene can be built in one turn, a Small machiene in two turns, and a Medium machine in three turns)
+At 11th level, you have the experience to build mechanical and technological contraptions quickly, improvising parts, in significantly less time than normal. You can quickly build a machine with a size up to large to perform any action that the DM considers logical. Examples include a small catapult, a portable missile, a trap, or even a small turret. The DM may require some parts to be needed, but most can be scavenged from things you have in your pockets or are in the area. Doing so takes one turn for each size (a Tiny machine can be built in one turn, a Small machine in two turns, and a Medium machine in three turns)
 
-At 18th level, the maximum size is increased to a Large machine. Building a Large machiene takes four turns.
+At 18th level, the maximum size is increased to a Large machine. Building a Large machine takes three turns, and the number of turns for the other sizes decreases by 1 (with Tiny becoming a bonus action.)
 
 #### Weapons Technician
 At 14th level, your experiences in engineering allow you to build and modify all sorts of weapons, including Forceblades, Spellshots, and other firearms. You are as skilled as a professional, and can install any weapon modification without a check, using your tools. You can also use your tools to construct a new weapon or weapon modification from various parts, though the DM may ask for a tool check. 
@@ -162,6 +162,23 @@ At 14th level, your experiences in engineering allow you to build and modify all
 At 18th level, your skill with weapons allows you to build larger mounted weapons, like turrets, when you have the parts and time.
 
 
+### Tactician
+The tactician is unstoppable on the battlefield, dealing more damage than others, absorbing more damage, and outsmarting the enemy. 
+
+#### Weapon Mastery
+When you choose the Tactician subclass at 3rd level, you gain proficiency with all weapons and armor.
+
+#### Extra Attack
+At 6th level, you can attack twice instead of once on your turn. One of these can be a damage-dealing cantrip.
+
+#### Double Down
+At 11th level, you can influence the damage of a spellshot or a forceblade. When you make an attack with one of these two, you add your player level to the damage. When you take damage from one of these two, you can use your reaction to ignore your player level in damage.
+
+#### A Better Plan
+At 14th level, when you enter combat, you gain some information about the area or the enemies based on a perception check that is not completely apparent. This information should be helpful, or at least provide a new combat opportunity. Examples include that the structures the enemy are using for cover are easily penetrable by spellshots, but only near the bottom, or that the armor they are wearing has a unique vulnerability on the left side (resulting in an bonus to attacks made by those who know it), or something else the DM comes up with.
+
+#### Rechargeable Shield
+At 18th level, you have modified your shield so that it can recharge. At the beginning of each round of combat, if you have not been hit by an attack or AOE effect since the end of your last turn, you regain 1/4 of your total HP.
 
 ## Avarian Cantrips
 [Special Cantrips](avarian-cantrips.html) that Unique to this Race/Class:
