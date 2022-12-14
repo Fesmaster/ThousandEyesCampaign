@@ -47,8 +47,8 @@ The high oxygen content of this planet makes it ideal for a number of rare speci
 Other species, including the Irish elk (*Megaloceros giganteus*) live here, and are domesticated. 
 
 ### Cities
-![Iuvernian City of Dubbran](https://cdna.artstation.com/p/assets/images/images/019/815/464/large/szymek-dmitruk-final-artwork-jpg.jpg?1565118636)
-> City of Dubbran on Iuvernia
+
+Image: [City of Dubbran on Iuvernia](https://cdna.artstation.com/p/assets/images/images/019/815/464/large/szymek-dmitruk-final-artwork-jpg.jpg?1565118636)
 
 The cities of Iuvernia were build originally by the Avarians, though, now, the touches and changes by the Humans can be seen. These cities and usually get all their power from solar power. The cities are usually the homes of most of the residents, even the fieldworkers. The fieldworkers then go out to the fields each day, which are in the surrounding areas.
 

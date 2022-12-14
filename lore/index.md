@@ -6,6 +6,7 @@ Here you will find the main lore index, a good place to look for information.
  * Laws of the Empire
  * History of the Empire
  * Major Organizations
+	 - [Avarians SpaceForce](spaceforce.html)
  * [Art and Culture](avarian-culture.html)
  * Science and Technology
 

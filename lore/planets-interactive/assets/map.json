@@ -22,7 +22,7 @@
 			"pos":{"x":30,"y":2},
 			"type":"image",
 			"image":"assets/star_yellow.png",
-			"desc":"Data Not Avalable",
+			"desc":"The Argile system is home to the great kingdom of Argile, one of the five core worlds. It is widely regarded as the buisness center of the empire.",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/argile.html"
 		},
 		{
@@ -30,7 +30,7 @@
 			"pos":{"x":30,"y":45},
 			"type":"image",
 			"image":"assets/star_yellow.png",
-			"desc":"Data Not Avalable",
+			"desc":"A miserable system, best to move on. Be wary of Utopos, the planet, for it is hard to leave. One of the core worlds, Utopos is under a socalist government, and is the poorest planet in the empire, with the worst living conditions.",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/utopos.html"
 		},
 		{
@@ -99,7 +99,7 @@
 			"type":"image",
 			"image":"assets/star_blue.png",
 			"scale":2,
-			"desc":"Data Not Avalable",
+			"desc":"Home system of the Marmori race, Swanheil is part of the empire, but no one but the Marmori live there. Since Avarians cannot live easily underwater, the Marmori are left to their own devices.",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/swanheil.html"
 		},
 		{
@@ -117,17 +117,17 @@
 			"type":"image",
 			"image":"assets/star_red.png",
 			"scale":2,
-			"desc":"Data Not Avalable",
+			"desc":"The Hathendrome system has many inhabitable planets, and is the home system of the Haflings.",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/hathendrome.html"
 		},
 		{
-			"name":"Oearth",
+			"name":"Oveath",
 			"pos":{"x":-40,"y":60},
 			"type":"image",
 			"image":"assets/star_yellow.png",
 			"scale":0.7,
 			"desc":"Data Not Avalable",
-			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/oearth.html"
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/oveath.html"
 		},
 		{
 			"name":"Torilia",
@@ -152,7 +152,7 @@
 			"type":"image",
 			"image":"assets/star_blue.png",
 			"scale":1.1,
-			"desc":"Data Not Avalable",
+			"desc":"Home of the Spartan race, this planet has been the forefront of the cold war with the Grenier for many decades.",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/sparta.html"
 		},
 		{
