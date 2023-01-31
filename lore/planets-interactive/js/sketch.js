@@ -402,17 +402,23 @@ function draw(){
 			let path = mapData.paths[i];
 			let start = mapData.poi[poiReverseLookup[path.start]];
 			let end = mapData.poi[poiReverseLookup[path.end]];
-			if (path.weight === undefined){
-				strokeWeight(DEFAULT_PATH_WEIHT);
-			}else{
-				strokeWeight(path.weight);
+			if (start !== undefined && end !== undefined){
+				if (path.weight === undefined){
+					strokeWeight(DEFAULT_PATH_WEIHT);
+				}else{
+					strokeWeight(path.weight);
+				}
+				if (path.color === undefined){
+					stroke(PATH_COLOR_ARRAY);
+				}else{
+					stroke(path.color);
+				}
+				line(start.pos.x, start.pos.y, end.pos.x, end.pos.y);
 			}
-			if (path.color === undefined){
-				stroke(PATH_COLOR_ARRAY);
-			}else{
-				stroke(path.color);
+			else 
+			{
+				console.log("Error: index: " + i + " had an invalid start or end. Start: " + path.start + "["+poiReverseLookup[path.start]+"] End: " + path.end + "["+poiReverseLookup[path.end]+"]");
 			}
-			line(start.pos.x, start.pos.y, end.pos.x, end.pos.y);
 		}
 	}
 	
