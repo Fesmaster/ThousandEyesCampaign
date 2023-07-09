@@ -133,7 +133,7 @@ At 20th level, your mastery of sublte manipulations of the Curon Field allows yo
 Once per encounter, you can prevent a creature from casting a spell. You can do this as a reaction or as a held action. They loose the spell slot, but the spell simply has no effect. This can be used to interrupt long cast spells, in which they only know of the failure at the end of the casting time. This can also prevent magic items from having any effect, or spells/items/potions that give status effects from having their effect, until the start of your next turn. This functions like an antimagic field, except it cannot be detected or dispelled. There is no save to resist this effect.
 
 ## Subclass
-Different Averians specialize in different areas. Those are listed here.
+Different Avarians specialize in different areas. Those are listed here.
 
 ### Greasemonkey
 The Greasemonkey is a mechanic of impressive skill. They can fix anything, or build anything. 

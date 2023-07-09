@@ -2,4 +2,6 @@
 **/*.backup
 .kdev4
 *.kdev4
+.vscode
+*.vscode
 /lore/planets-interactive/assets/.map.json.kate-swp

@@ -1,0 +1,261 @@
+{
+    "seed":"TelwarAreTheBest",
+
+    "bodies":[
+        {
+            "name":"Kaelish",
+            "mass":100000000000,
+            "radius":150,
+            "color":"#c1fcf2",
+            "type":"star",
+            "pos":{"x":0,"y":0},
+            "desc":"Kaelish is a young star, though the life in the system is already highly developed."
+        },
+
+        {
+            "name":"Thurin",
+            "mass":600000000,
+            "radius":21,
+            "color":"#f8a82f",
+            "type":"gas giant",
+            "parent":"Kaelish",
+
+            "anomaly":63,
+            "eccentricity":0.05,
+            "semiMajorAxis":370,
+
+            "pathWeight":1.5,
+            "desc":"A hot gas giant, this glowing orb is bright in the sky, even from the shadowed sky. A stream of ionized gas spirals out from it. It was thought to have moons at some point in the past however, the heat from Kaelish, the star, likely caused their orbits to be unstable as it vaporized their surfaces, resulting in them crashing into the planet. This is believed to be the cause of the shockwaves that still travel around the lower atmosphere, constantly passing over the planet, each time a little weaker. \n\nJurisdiction: Imperial\nHabitability: Spaghettification"
+        },
+        {
+            "name":"Halas",
+            "mass":100000,
+            "radius":4,
+            "color":"#a06c86",
+            "type":"planet",
+            "parent":"Kaelish",
+
+            "anomaly":-54,
+            "eccentricity":0.22,
+            "semiMajorAxis":540,
+
+            "pathWeight":1,
+            "desc":"A hot rocky world, this planet has an atmosphere of hydrogen and helium, mostly collected from the offshoots of Thurin. It is a large and dense planet, with violent weather and strange atmospheric chemistry. \n\nJurisdiction: Imperial\nHabitability: Spaghettification"
+        },
+        {
+            "name":"Halas-[roman:[increment]]",
+            "count":3,
+            "incremental":true,
+            "incremental_max":30,
+            "incremental_min":5,
+            "mass":10000,
+            "radius":[0.25,1],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Halas",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.00125,0.02],
+            "semiMajorAxis":[7,40],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.1,
+            "desc":"A moon of Halas, an rocky body. it [does have an atmosphere, made of mostly [hydrogen and helium gas.|dense sulfide gasses, making it highly corrosive.|nitrogen and lighter gasses, giving it a unworldly blue color.]|does not have an atmosphere.]  \n\nJurisdiction: Imperial\nHabitability:Hazardous."
+        },
+
+        {
+            "name":"Tel-Avan",
+            "mass":800000,
+            "radius":2.3,
+            "color":"#10bd00",
+            "type":"planet",
+            "parent":"Kaelish",
+
+            "anomaly":128,
+            "eccentricity":0.012,
+            "semiMajorAxis":782,
+
+            "pathWeight":1,
+            "desc":"A thick jungle world, Tel-Avan is the homeworld of the Telwar race. Technically not part of the Empire, access is restricted. Contact your local Telwar ambassador office to request permission to visit. \n\nJurisdiction: Local Non-Imperial\nHabitability: Habitable. Warning: Native creatures and sentient species should be considered hazardous."
+        },
+        {
+            "name":"Fenuri",
+            "mass":200,
+            "radius":0.2,
+            "color":"#776d60",
+            "type":"moon",
+            "parent":"Tel-Avan",
+
+            "anomaly":[0, 360],
+            "eccentricity":0.07,
+            "semiMajorAxis":5.443,
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.05,
+            "desc":"The moon of Tel-Avan, Fenuri is under Telwar control, though they seem to have little use for it. Scans indicate the moon is rich in minerals, though no exploration of this has been done, due to it being against the Telwar's wishes.  \n\nJurisdiction: Tel-Avan\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation."
+        },
+
+        {
+            "name":"Appalos",
+            "mass":1000,
+            "radius":0.6,
+            "color":"#7166b1",
+            "type":"planet",
+            "parent":"Kaelish",
+
+            "anomaly":226,
+            "eccentricity":0.18,
+            "semiMajorAxis":1140,
+
+            "pathWeight":0.25,
+            "desc":"A very small icy planet, Appalos is claimed by the Telwar Council as well as by the Marmori. The Empire has decided to not become involved. All ice mining contracts have been discontinued. \n\nJurisdiction: Contested (Telwar, Marmori)\nHabitability: Habitable but Cold."
+        },
+        {
+            "name":"ASTR-134#######",
+            "count":[25,100],
+            "mass":[10,100],
+            "radius":[0.1, 0.2],
+            "color":"#9c9c9c",
+            "type":"Asteroid",
+            "parent":"Kaelish",
+
+            "anomaly":[-180, 180],
+            "eccentricity":[0.05, 0.2],
+            "semiMajorAxis":[1000, 1300],
+
+            "pathWeight":0.015,
+            "priority":-1,
+            "desc":"An Appalesian Asteroid, this body is believed to have been part of the failed planet that would orbit roughly the same as Appalos. \n\nJurisdiction: Imperial\nHabitability: Hazardous. Artificial gravity, pressure suits and structures need."
+        },
+
+        {
+            "name":"Beorn",
+            "mass":600000000,
+            "radius":25,
+            "color":"#b48a4a",
+            "type":"gas giant",
+            "parent":"Kaelish",
+
+            "anomaly":17,
+            "eccentricity":0.005,
+            "semiMajorAxis":1870,
+
+            "pathWeight":2,
+            "desc":"A large gas giant, Beorn is much further from Kaelish than the previous planet, Appalos. It has a large number of moons, some of which have stations around them. \n\nJurisdiction: Imperial\nHabitability: Spaghettification."
+        },
+        {
+            "name":"Beorn-[roman:[increment]]",
+            "seed":"GoodTimesIHopeButMoreMoons!",
+            "count":[22,40],
+            "incremental":true,
+            "incremental_max":30,
+            "incremental_min":5,
+            "mass":10000,
+            "radius":[0.5,2],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Beorn",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.00125,0.02],
+            "semiMajorAxis":[30,500],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.1,
+            "desc":"A moon of Beorn, an [rocky|icy] body.\n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication."
+        },
+        {
+            "name":"Andreas Station [Destroyed]",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Beorn-IV",
+
+            "anomaly":10,
+            "eccentricity":0.01,
+            "semiMajorAxis":1.9,
+            "baseAngle":0,
+
+            "pathWeight":0.02,
+            "desc":"Andreas Station was a major spaceport in the Tel-Avan system, until destroyed by the Beholders. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Kashmire Station",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Beorn-X",
+
+            "anomaly":10,
+            "eccentricity":0.01,
+            "semiMajorAxis":2.7,
+            "baseAngle":0,
+
+            "pathWeight":0.02,
+            "desc":"Hastily constructed to replace the lost Andreas Station, Kashmire Station is used as a major stopping point for ships traveling through the Tel-Avan system. It is the largest Avarian presence in the system. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Thoria",
+            "mass":20000,
+            "radius":1.4,
+            "color":"#9dc5c5",
+            "type":"planet",
+            "parent":"Kaelish",
+
+            "anomaly":117,
+            "eccentricity":0.205,
+            "semiMajorAxis":3190,
+
+            "pathWeight":0.5,
+            "desc":"Thoria is a large icy body in the outer system. It is notable for its large plains of frozen nitrogen, which sublimates during the warm season. Large amounts of water ice form its main body, tinted red-brown with tholins. The presence of large cryovolcanoes points to a subsurface ocean, but it has not been explored. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication."
+        },
+        {
+            "name":"Sylvia",
+            "mass":2000,
+            "radius":0.9,
+            "color":"#5c4949",
+            "type":"moon",
+            "parent":"Thoria",
+
+            "anomaly":96,
+            "eccentricity":0.01,
+            "semiMajorAxis":14,
+
+            "pathWeight":0.2,
+            "desc":"A dense water-ice body, Sylvia is the only moon of Thoria. Its grey body is heavily cratered and cracked, as it has much less surface activity than Thoria. Some think there may have been a subsurface ocean due to remnants of cryovolcanoes, but it is believed to be frozen solid now. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication."
+        }
+
+    ],
+
+    "routes":[
+
+    ],
+
+    "background":{
+        "stars":true,
+        "star_count":[250,350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+        ]
+   },
+
+   "edits":[
+        {
+            "name":"Beorn-XX",
+            "display_name":"Calypso",
+            "note":"A terrifying moon, Calypso was once the home base to a gang of pirates who caused a lot of trouble for the early empire. It still has a large crater and heavily fractures surface from when the Avarian Spaceforce nuked their base."
+        },
+        {
+            "name":"Beorn-IV",
+            "display_name":"Razian",
+            "note":"Razian bears many scars from the Battle of Andreas Station. It surface, once a slightly cratered rocky surface, is now heavily cratered and damaged. Significant cracks have formed, and it has developed a debris cloud."
+        },
+        {
+            "name":"Beorn-X",
+            "display_name":"Dreas",
+            "note":"Host to the Kashmire Station, Dreas is a roughly pockmarked moon, with many crater impacts.."
+        }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+    "seed":"Don't lick my elbows!!!!!!!",
+    "camScale":0.125,
+
+    "bodies":[
+        {
+            "name":"Solis",
+            "mass":100000000000,
+            "radius":100,
+            "color":[255,255,128],
+            "type":"star",
+            "pos":{"x":0,"y":0}
+        },
+        {
+            "name":"Veru",
+            "mass":100000000,
+            "radius":15,
+            "color":[14,70,255],
+            "type":"planet",
+            "parent":"Solis",
+
+            "anomaly":0,
+            "eccentricity":0.025,
+            "semiMajorAxis":700,
+
+            "pathWeight":1,
+            "href":"https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)",
+            "desc":"Cool and Wet, Veru is a fun Planet to visit."
+        },
+        {
+            "name":"Vox",
+            "mass":1,
+            "radius":2,
+            "color":"#FFFFFF",
+            "pos":{"x":5,"y":5},
+            "type":"planet",
+            "parent":"Veru",
+            "desc":"A location on, Veru."
+        }
+        
+    ]
+}

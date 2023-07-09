@@ -1,0 +1,759 @@
+{
+    "seed":"Takokat",
+    "camScale":8,
+
+    "bodies":[
+        {
+			"name":"Avalon",
+			"pos":{"x":0,"y":0},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "noStroke":true,
+                    "noFill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":1.2,
+			"desc":"The Avalon System contains the homeworld of the Avarians, Avalon. Here can be found the seat of government for the whole Avarian Empire, as well as many thriving cities, centers of trade and culture.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/avalon.html"
+		},
+		{
+			"name":"Westeress",
+			"pos":{"x":20,"y":15},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/westeress.html"
+		},
+		{
+			"name":"Argile",
+			"pos":{"x":30,"y":2},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"The Argile system is home to the great kingdom of Argile, one of the five core worlds. It is widely regarded as the business center of the empire.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/argile.html"
+		},
+		{
+			"name":"Utopos",
+			"pos":{"x":30,"y":45},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"A miserable system, best to move on. Be wary of Utopos, the planet, for it is hard to leave. One of the core worlds, Utopos is under a socialist government, and is the poorest planet in the empire, with the worst living conditions.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/utopos.html"
+		},
+		{
+			"name":"Atlantis",
+			"pos":{"x":60,"y":43},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"One of the five core systems, the Atlantis system is home to the planet Atlantis, its moon Malvaston, the planet Zalapa, and the great ship factory of Harbanger. Known for being a center of the arts, the planet of Atlantis is considered to be the most beautiful planet, and has some of the highest prices for land anywhere in the Empire.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/atlantis.html"
+		},
+		{
+			"name":"Ettenweil",
+			"pos":{"x":90,"y":60},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.9,
+			"desc":"Home to two inhabitable planets, the Ettenweil system is part of the outer Empire, but essential for the common food and mechanical products used by every citizen. The planet of Ettenweil is one of the largest areas of mining and manufacturing, due to it having no real ecology to destroy. On the other hand, the planet of Iuvernia is the largest breadbasket of the Empire. It is home to not just Avarians, but also many Humans of Irish decent, having arrived as refugees from Terra long ago. Now, they are one of the most integrated dual-species societies.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html"
+		},
+		{
+			"name":"Korvan",
+			"pos":{"x":110,"y":50},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_red.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.7,
+			"desc":"Go to the Korvan System at your own risk. We at the Imperial Mapping Department will not accept any blame, in whole or in part, form anything the hapless traveler may experience when traveling to the Korvan System. \n As far as the planets of the system go, there is Korvan, where all mithril is mined, and there is Revel, the prison of the Celestials. Oh, and don't forget the many thousands of nasty Greek pirates that make this system their home.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/korvan.html"
+		},
+		{
+			"name":"Tel-Avan",
+			"pos":{"x":80,"y":17},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"Home system of the Telwar, a noble, yet secretive race. The planet of Tel-Avan is technically not part of the Empire, but an agreement stands, allowing it to be within the Empire's influence, but not direct government. There is also the uninhabited icy pseudo planet Appalos.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/tel-avan.html"
+		},
+		{
+			"name":"Noctis",
+			"pos":{"x":100,"y":14},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_red.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.8,
+			"desc":"Home system of the Gnomes, Noctis hosts two magnificent planets. THe first is Galvon, homeworld of the Gnomes. This planet is known for being unpredictable, due to a disaster that unlicensed and unsupervised Gnomish scientists performed, the curon field around the planet is wildly unstable, often resulting in unexpected changes in physical behavior, including spontaneous energy excitation or teleportation. This makes all maps out of date within half an hour of them being first measured. Midnight, the moon of a hot gas giant, is also habitable, even though it is always in the dark. It has a continuous, flamboyant nightlife, full of bars and tavernas.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/noctis.html"
+		},
+		{
+			"name":"Terra",
+			"pos":{"x":85,"y":0},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_red.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"Containing the planet Terra, this system is the origin of all humans. It is not their homeworld, as they somehow 'teleport' to Terra without any means of prediction or expecting it. As of a very recent event, there have been three distinct stages of teleportation: first the Greeks, then later the Irish, then recently a group calling themselves 'Japanese'.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/terra.html"
+		},
+		{
+			"name":"Halcion Cluster",
+			"pos":{"x":100,"y":-17},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_cluster_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":2,
+			"desc":"A set of three stars with independent planetary rings, the Halcion Cluster is the most important colony area in the Empire. Planets include Meridia, Torson, Vectel, Talpos, Omeria, Nimradan, and Galvanta. If one is looking for somewhere to say, head to Torson, as it has actual cities.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/halcion-cluster.html"
+		},
+		{
+			"name":"Swanheil",
+			"pos":{"x":45,"y":-17},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":2,
+			"desc":"Home system of the Marmori race, Swanheil is part of the empire, but no one but the Marmori live there. Since Avarians cannot live easily underwater, the Marmori are left to their own devices.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/swanheil.html"
+		},
+		{
+			"name":"Trupidia",
+			"pos":{"x":18,"y":65},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":1.3,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/trupidia.html"
+		},
+		{
+			"name":"Hathendrome",
+			"pos":{"x":-10,"y":55},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_red.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":2,
+			"desc":"The Hathendrome system has many inhabitable planets, and is the home system of the Haflings.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/hathendrome.html"
+		},
+		{
+			"name":"Oveath",
+			"pos":{"x":-40,"y":60},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.7,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/oveath.html"
+		},
+		{
+			"name":"Torilia",
+			"pos":{"x":-44,"y":56},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.8,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/torilia.html"
+		},
+		{
+			"name":"Anthem",
+			"pos":{"x":-20,"y":10},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_red.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"With three inhabited planets, this system has a grand total population over 65 billion, the largest in the Empire, even if the individual planets are not quite. All industries are common here, it is a center of business and trade. The three planets are Anthem, Tyrion, and Phalantis, and all are deserving of a visit. See the Golden Palace of Urbanbu on Phalantis, or land at the Dullian Spaceport of Tyrion.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/anthem.html"
+		},
+		{
+			"name":"Sparta",
+			"pos":{"x":-50,"y":20},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":1.1,
+			"desc":"Home of the Spartan race, this planet has been the forefront of the cold war with the Grenier for many decades.",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/sparta.html"
+		},
+		{
+			"name":"Corilary Minor",
+			"pos":{"x":-2,"y":-30},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.5,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/corilary-minor.html"
+		},
+		{
+			"name":"Corilary Major",
+			"pos":{"x":-5,"y":-33},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_blue.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/corilary-major.html"
+		},
+		{
+			"name":"Veridis",
+			"pos":{"x":-35,"y":-31},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+            "radius":1,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/veridis.html"
+		},
+		{
+			"name":"Harmony",
+			"pos":{"x":-49,"y":-16},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"inhabited system",
+			"radius":0.9,
+			"desc":"Data Not Avalable",
+			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/harmony.html"
+		},
+
+
+
+        {
+			"name":"SYS-UNCH-070######",
+            "count":16,
+			"pos":{"x":[-60,130],"y":[-50,80]},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "fill":["#FFFFFF", "#ff9292"],
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"uninhabited system",
+			"radius":[0.7,1.3],
+			"desc":"An uninhabited and uncharted system."
+		}
+    ],
+    "routes":[
+        {
+			"start":"Ettenweil",
+			"end":"Tel-Avan",
+            "color":"#075500",
+            "thickness":0.25,
+            "circle_ends":true,
+            "style":"dotted",
+            "pattern":"-.-",
+            "draw_after_bodies":false
+		},
+        {
+			"start":"Argile",
+			"end":"Swanheil",
+            "color":"#770000",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+        {
+			"start":"Avalon",
+			"end":"Westeress",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Avalon",
+			"end":"Argile",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Argile",
+			"end":"Westeress",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Westeress",
+			"end":"Utopos",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Atlantis",
+			"end":"Utopos",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Atlantis",
+			"end":"Argile",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Atlantis",
+			"end":"Ettenweil",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Ettenweil",
+			"end":"Korvan",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Atlantis",
+			"end":"Tel-Avan",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Tel-Avan",
+			"end":"Noctis",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Tel-Avan",
+			"end":"Terra",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Terra",
+			"end":"Halcion Cluster",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Utopos",
+			"end":"Trupidia",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Trupidia",
+			"end":"Hathendrome",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Hathendrome",
+			"end":"Oveath",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Oveath",
+			"end":"Torilia",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Avalon",
+			"end":"Anthem",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Anthem",
+			"end":"Sparta",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Avalon",
+			"end":"Corilary Minor",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Corilary Minor",
+			"end":"Corilary Major",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Corilary Major",
+			"end":"Veridis",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
+		{
+			"start":"Veridis",
+			"end":"Harmony",
+            "color":"#0a7700",
+            "thickness":0.25,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		}
+    ],
+    "background":{
+        "stars":true,
+        "star_count":[250, 350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":-49,"y":-16},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 160, 0]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":-46,"y":-25},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 160, 0]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":-35,"y":-31},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 160, 0]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":-62,"y":-10},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 160, 0]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":60,"y":-30},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[18, 186, 20]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":70,"y":60},
+                "size":{"x":15,"y":15},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 41, 14]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":80,"y":60},
+                "size":{"x":20,"y":20},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 41, 14]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":90,"y":60},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 41, 14]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":100,"y":50},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 14, 200]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":105,"y":55},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 14, 200]
+            },
+            {
+                "parallax":[0.9, 1.05],
+                "form":"image",
+                "pos":{"x":110,"y":40},
+                "size":{"x":25,"y":25},
+                "angle":[-180,180],
+                "image":"assets/cloud_white.png",
+                "color":[255, 14, 200]
+            },
+            {
+                "form":"text",
+			    "text":"Avarian Empire",
+                "color":"#80808080",
+                "strokeWeight":0.2,
+                "width":1,
+                "height":1,
+                "pos":{"x":29,"y":24},
+			    "size":15
+            },
+            {
+                "form":"polygon",
+                "pos":{"x":0,"y":0},
+                "size":{"x":1,"y":1},
+                "angle":0,
+                "shape_type":"poly",
+                "closed":true,
+                "points":[
+                    [0,  -45],
+                    [43, -11],
+                    [104,-24],
+                    [115,50 ],
+                    [89, 65 ],
+                    [17, 69 ],
+                    [-41,64 ],
+                    [-49,59 ],
+                    [-56,19 ],
+                    [-53,-16],
+                    [-38,-39]
+                ],
+                "stroke":[12,140,0],
+                "strokeWeight":0.3
+            }
+        ]
+    }
+}

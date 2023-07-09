@@ -1,0 +1,20 @@
+{
+    "map_list":[
+        {
+            "name":"Overview",
+            "file":"assets/overview_map.json"
+        },
+        {
+            "name":"Ettenweil",
+            "file":"assets/system_map_ettenweil.json"
+        },
+        {
+            "name":"Tel-Avan",
+            "file":"assets/system_map_tel-avan.json"
+        },
+        {
+            "name":"Atlantis",
+            "file":"assets/system_map_atlantis.json"
+        }
+    ]
+}

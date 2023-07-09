@@ -1,0 +1,310 @@
+{
+    "seed":"WorldOfDarkness",
+    "camScale":0.5,
+
+    "bodies":[
+        {
+            "name":"Romeo",
+            "mass":10000000000000,
+            "radius":420,
+            "color":"#ffe08a",
+            "type":"star",
+            "pos":{"x":0,"y":0},
+            "desc":"Romeo is a mid-life star, though, due to its size, it won't live very long It was hot and blue when the Empire began."
+        },
+        {
+            "name":"Zyern",
+            "mass":1000000,
+            "radius":2,
+            "color":"#c44800",
+            "type":"planet",
+            "parent":"Romeo",
+
+            "anomaly":47,
+            "eccentricity":0.15,
+            "semiMajorAxis":630,
+
+            "pathWeight":0.5,
+            "desc":"A small, hot, rocky planet with a sulfurous atmosphere. It has a high frequency of volcanos, and is believed to completely replace its crust ever 12 to 36 days. \n\nJurisdiction: Imperial\nHabitability:Hazardous (structures unable to be constructed, limited exposure time necessary.)"
+        },
+        {
+            "name":"Rivan",
+            "mass":1000000,
+            "radius":4,
+            "color":"#db973d",
+            "type":"planet",
+            "parent":"Romeo",
+
+            "anomaly":67,
+            "eccentricity":0.08,
+            "semiMajorAxis":825,
+
+            "pathWeight":0.5,
+            "desc":"A dense planet covered in thick clouds, Rivan has potential for some forms of life. Its atmosphere is mostly steam and water vapor, and geysers are frequent on the surface. Its molten core gives it a very strong magnetic field. \n\nJurisdiction: Imperial\nHabitability:Hazardous"
+        },
+        {
+            "name":"{starwars}",
+            "count":3,
+            "incremental":true,
+            "incremental_min":2,
+            "incremental_max":4,
+            "mass":10000,
+            "radius":[0.125,0.25],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Rivan",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.00125,0.1],
+            "semiMajorAxis":[6,14],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.05,
+            "desc":"A moon of Rivan, this body is rocky and hot. It lacks an atmosphere, being rather small in size. The sunlight is harsh, and the surface is bleached and sterile. It is similar in composition to the other two moons, though different from the parent planet. It is believed that some body broke up and parts entered orbit or Rivan, eventually coalescing into the three moons. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation.)"
+        },
+
+        {
+            "name":"Atlantis",
+            "mass":100000000,
+            "radius":7,
+            "color":"#0e008f",
+            "type":"planet",
+            "parent":"Romeo",
+
+            "anomaly":0,
+            "eccentricity":0.019,
+            "semiMajorAxis":1100,
+            "baseAngle":90,
+
+            "pathWeight":1,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/atlantis.html#atlantis-1",
+            "desc":"The Shining World of Atlantis is one of the five core worlds. It is known for being a center fo the arts, poetry, music, and natural wonders. \n\nJurisdiction: Atlantis\nHabitability:Paradise"
+        },
+        {
+            "name":"Harbanger Station",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Atlantis",
+
+            "anomaly":187,
+            "eccentricity":0.007,
+            "semiMajorAxis":6,
+            "baseAngle":54,
+
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#harbanger",
+            "desc":"Harbinger Station is a major shipyard. The odds are great that any ship you see, save military vessels, was built here. Shaped like a large ring with the dry docks on the outside, Harbinger is large enough to be seen with the naked eye from the surface of Atlantis. \n\nJurisdiction: Imperial"
+        },
+        
+        {
+            "name":"Malvaston",
+            "mass":1000,
+            "radius":1.2,
+            "color":"#a8a59f",
+            "type":"moon",
+            "parent":"Atlantis",
+            
+            "anomaly":127,
+            "eccentricity":0.095,
+            "semiMajorAxis":16,
+            "baseAngle":0,
+            
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/atlantis.html#malvaston",
+            "desc":"A heavy, rocky world, Malvaston is occupied by a large body of people, enough to make it an independent world from Atlantis. The culture here is the opposite, being very practical and very precise. The population lives in pressurized structures due to the lack of atmosphere.\n\nJurisdiction: Malvaston\nHabitability:Challenging (Requires pressure suit and structures)"
+        },
+
+        {
+            "name":"Zalapa",
+            "mass":100000000,
+            "radius":7,
+            "color":"#188f00",
+            "type":"planet",
+            "parent":"Romeo",
+
+            "anomaly":0,
+            "eccentricity":0.019,
+            "semiMajorAxis":1100,
+            "baseAngle":270,
+
+            "pathWeight":1,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/atlantis.html#zalapa",
+            "desc":"A terraformed planet, Zalapa is a major agricultural center. The planet is locked in opposition ot Atlantis so that the two planets can occupy the same favorable orbit. This planet was moved here and terraformed in the early Empire. \n\nJurisdiction: Zalapa\nHabitability:Paradise"
+        },
+
+        {
+            "name":"Kalliaxo",
+            "mass":1000000000,
+            "radius":41,
+            "color":"#ffe600",
+            "type":"gas giant",
+            "parent":"Romeo",
+
+            "anomaly":45,
+            "eccentricity":0.09536,
+            "semiMajorAxis":2800,
+            "baseAngle":87,
+
+            "pathWeight":3,
+            "desc":"A large gas giant, Kalliaxo is mostly Hydrogen and Helium, and has very turbulent weather. About six hundred years ago, two of its moons collided, and lead to a cascading collapse of its moons, causing them to be shredded into the irregularly shaped small bodies that orbit it today. It is believed they will re-coalesce into larger moons in the coming centuries. \n\nJurisdiction: Imperial\nHabitability:Spaghettification"
+        },
+        {
+            "name":"Kalliaxo-[roman:[increment]]",
+            "count":[50,100],
+            "incremental":true,
+            "incremental_max":30,
+            "mass":10000,
+            "radius":[0.125,0.25],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Kalliaxo",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.2,0.3],
+            "semiMajorAxis":[30,200],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.025,
+            "desc":"A moon of Kalliaxo, this body is uninhabited. It is very small, and irregularly shaped. It bears signs of recent violent impacts. \n\nJurisdiction: Imperial\nHabitability:Hazardous"
+        },
+        {
+            "name":"Nurvia-Sylvia COM",
+            "mass":10000000000,
+            "radius":41,
+            "color":"#a1a1a1ff",
+            "visuals":[
+                {
+                    "form":"ellipse",
+                    "fill":"#00000000",
+                    "noStroke":"true",
+                    "width":0,
+                    "height":0
+                }
+            ],
+            "type":"abstract point",
+            "parent":"Romeo",
+            "anomaly":78,
+            "eccentricity":0.0367,
+            "semiMajorAxis":3700,
+            "baseAngle":65,
+            "pathWeight": 4,
+            "selectable":false
+        },
+        {
+            "name":"Nurvia",
+            "mass":100000000,
+            "radius":26,
+            "color":"#00ccff",
+            "type":"gas giant",
+            "parent":"Nurvia-Sylvia COM",
+
+            "anomaly":0,
+            "eccentricity":0.26,
+            "semiMajorAxis":230,
+            "baseAngle":184,
+
+            "pathWeight":3,
+            "desc":"A large gas giant, Nurvia is mostly Hydrogen, Helium, and Nitrogen. Its surface cloud layer is deceptively uniform and smooth-looking, as the lower levels feature supersonic winds that circle the equator. It has an extreme tilt angle, at over 45 degrees, resulting in large areas of the poles being in eternal day or eternal night, depending on the time of year. It has few moons, due to its interaction with its sister planet, Sylvia \n\nJurisdiction: Imperial\nHabitability:Spaghettification"
+        },
+        {
+            "name":"{starwars}",
+            "count":3,
+            "incremental":true,
+            "incremental_min":2,
+            "incremental_max":4,
+            "mass":10000,
+            "radius":[0.125,0.25],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Nurvia",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.00125,0.1],
+            "semiMajorAxis":[26,38],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.05,
+            "desc":"A moon of Nurvia, this body is [rocky|icy] and cold. It lacks an atmosphere, being rather small in size. This moon is difficult to visit, due to the gravitational interactions of Nurvia and Sylvia. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation.)"
+        },
+        {
+            "name":"Sylvia",
+            "mass":100000000,
+            "radius":24,
+            "color":"#b700ff",
+            "type":"gas giant",
+            "parent":"Nurvia-Sylvia COM",
+
+            "anomaly":0,
+            "eccentricity":0.26,
+            "semiMajorAxis":230,
+            "baseAngle":-6,
+
+            "pathWeight":3,
+            "desc":"A large gas giant, Sylvia is mostly Hydrogen, Helium, and mysteriously, Argon. Its surface shows high levels of turbulence and spiral patterns, and is the subject of many paintings on Atlantis. It has few moons, due to its interaction with its sister planet, Sylvia \n\nJurisdiction: Imperial\nHabitability:Spaghettification"
+        },
+        {
+            "name":"{starwars}",
+            "count":2,
+            "incremental":true,
+            "incremental_min":2,
+            "incremental_max":4,
+            "mass":10000,
+            "radius":[0.125,0.25],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Sylvia",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.00125,0.1],
+            "semiMajorAxis":[22,35],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.05,
+            "desc":"A moon of Sylvia, this body is [rocky|icy] and cold. It lacks an atmosphere, being rather small in size. This moon is difficult to visit, due to the gravitational interactions of Nurvia and Sylvia. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation.)"
+        },
+
+
+
+        {
+            "name":"COMT-059#######",
+            "count":[20,60],
+            "mass":1000,
+            "radius":[0.1,0.3],
+            "color":"#8eabbd",
+            "type":"comet",
+            "parent":"Romeo",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.6,0.9999],
+            "semiMajorAxis":[3600,8700],
+            "baseAngle":[0, 360],
+            "priority":-2,
+
+            "pathWeight":0.01,
+            "desc":"A Comet, this blob of rock, ice, and gas whirls around Grian in highly eccentric orbit. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as artificial gravity and solar radiation shielding. Must be able to withstand high temperature changes, violent offgassing, and unstable surfaces.)"
+        }
+    ],
+
+    "routes":[
+
+    ],
+
+
+    "background":{
+        "stars":true,
+        "star_count":[250,350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+        ]
+   },
+
+   "edits":[
+    
+        {
+            "name":"Nurvia-Sylvia COM",
+            "display_name":""
+        }
+   ]
+}

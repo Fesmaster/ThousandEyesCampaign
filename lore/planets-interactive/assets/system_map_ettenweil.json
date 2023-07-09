@@ -1,0 +1,534 @@
+{
+    "seed":"Don't lick my elbows!!!!!!!",
+
+    "bodies":[
+        {
+            "name":"Grian",
+            "mass":100000000000,
+            "radius":100,
+            "color":"#bdfff6",
+            "type":"star",
+            "pos":{"x":0,"y":0},
+            "desc":"Pronounced '/gree-on/', Grian is the Iuvernian word for 'Sun'. This star is near the start of its life cycle."
+        },
+        {
+            "name":"Droll",
+            "mass":100000000,
+            "radius":2,
+            "color":"#c44800",
+            "type":"planet",
+            "parent":"Grian",
+
+            "anomaly":47,
+            "eccentricity":0.25,
+            "semiMajorAxis":400,
+
+            "pathWeight":0.5,
+            "desc":"A small, hot, rocky planet with seas of liquid lead. Large amounts of heavy metals result in an above-average radiation levels on the surface. There is little reason to go here. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires specialized structures and limited exposure time.)"
+        },
+        {
+            "name":"Ettenweil",
+            "mass":100000000,
+            "radius":5,
+            "color":"#ff7300",
+            "type":"planet",
+            "parent":"Grian",
+
+            "anomaly":84,
+            "eccentricity":0.125,
+            "semiMajorAxis":700,
+
+            "pathWeight":1,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#ettenweil",
+            "desc":"A hot, rocky planet with briny seas and a thin atmosphere. Full of silicate clay that is easy to process into advanced ceramics, there is significant mining and manufacturing on this planet. It also hosts a few military test sites. Rare earth metals are extracted from its briny seas.\n\nJurisdiction: Imperial\nHabitability:Minimal (requires sealed suit and structures)"
+        },
+        {
+            "name":"Frank Holland Memorial Shipyard",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Ettenweil",
+
+            "anomaly":66,
+            "eccentricity":0.008,
+            "semiMajorAxis":5,
+            "baseAngle":4.67,
+
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#ettenweil",
+            "desc":"Affectionately dubbed the 'Effing Hell Shipyard' by the troops stationed there, this station is operated by the Avarian Spaceforce, and has been used by them to manufacture much of the fleet for many years. This is changing with the Generation 26 fleet, which is manufactures from a new, secret facility.  \n\nJurisdiction: Avarian Spaceforce"
+        },
+        {
+            "name":"Iuvernia",
+            "mass":100000000,
+            "radius":7,
+            "color":"#188f00",
+            "type":"planet",
+            "parent":"Grian",
+
+            "anomaly":256,
+            "eccentricity":0.049,
+            "semiMajorAxis":900,
+            "baseAngle":73,
+
+            "pathWeight":1,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#iuvernia",
+            "desc":"A fertile paradise world, Iuvernia is settled by Avarians and Iuvernian Humans. It is a major farming world, with developed industry and cities. Its numerous active volcanos cause the soil to be exceptionally fertile. Weather is violent and stormy, though this also helps the farming. \n\nJurisdiction: Iuvernia\nHabitability:Paradise"
+        },
+        {
+            "name":"Tefalos Station",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Iuvernia",
+
+            "anomaly":89,
+            "eccentricity":0.008,
+            "semiMajorAxis":5,
+            "baseAngle":43,
+
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#iuvernia",
+            "desc":"A major spaceport, Tefalos Station is the main gateway to Iuvernia. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Kerns Station",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Iuvernia",
+
+            "anomaly":187,
+            "eccentricity":0.007,
+            "semiMajorAxis":6,
+            "baseAngle":54,
+
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#iuvernia",
+            "desc":"A smaller station, Kerns Station is home to various transport and communications industries. It also hosts the primary node for Iuvernia's weather monitoring system. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Stollis",
+            "mass":1000,
+            "radius":1.2,
+            "color":"#807157",
+            "type":"moon",
+            "parent":"Iuvernia",
+
+            "anomaly":127,
+            "eccentricity":0.095,
+            "semiMajorAxis":12,
+            "baseAngle":0,
+
+            "pathWeight":0.02,
+            "desc":"A heavy, rocky world, Stollis is like a amber gem in the sky of Iuvernia. While it once had active volcanos, its core has cooled and solidified. It is now the site of various mining and refining operations.\n\nJurisdiction: Imperial\nHabitability:Challenging (Requires pressure suit and structures)"
+        },
+        {
+            "name":"McConnon Station",
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Stollis",
+
+            "anomaly":80,
+            "eccentricity":0.17,
+            "semiMajorAxis":1.6,
+            "baseAngle":15,
+
+            "pathWeight":0.02,
+            "href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/ettenweil.html#iuvernia",
+            "desc":"An abandoned station, McConnon Station was built to be a orbital manufacturing station around Stollis. The company behind it went broke not long after the station was completed, and it was abandoned. It was later purchased by a university with plans on turn it into an observatory, but those plans are bogged down by zoning regulations. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Liopi",
+            "mass":100000000,
+            "radius":35,
+            "color":"#d70dff",
+            "visuals":[
+                {
+                    "form":"ellipse",
+                    "fill":"#d70dff",
+                    "noStroke":"true",
+                    "width":1,
+                    "height":1
+                },
+                {
+                    "form":"ellipse",
+                    "stroke":"#d305b754",
+                    "noFill":"true",
+                    "width":2,
+                    "height":2,
+                    "strokeWeight":0.5
+                }
+            ],
+            "type":"planet",
+            "parent":"Grian",
+
+            "anomaly":176,
+            "eccentricity":0.098,
+            "semiMajorAxis":1500,
+            "baseAngle":92,
+
+            "pathWeight":2,
+            "desc":"A large gas giant, Liopi is known for its startling purple hues caused by potassium permanganate particles in the clouds. It is mostly composed of Nitrogen and Oxygen, with various noble gasses present. It has very little Hydrogen or Helium in its composition. \n\nJurisdiction: Iuvernia\nHabitability:Spaghettification"
+        },
+        {
+            "name":"{real}",
+            "seed":"ComeAndGetMe5023",
+            "count":[5,10],
+            "incremental":true,
+            "incremental_max":20,
+            "incremental_min":4,
+            "mass":10000,
+            "radius":[0.5,3],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Liopi",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.0125,0.2],
+            "semiMajorAxis":[25,100],
+            "baseAngle":[0, 360],
+            "append_orbit_to_desc":true,
+
+            "pathWeight":0.1,
+            "desc":"A moon of Liopi, this body is [relative underdeveloped|home to various mining operations|used as a scientific preserve|home to deep space greenhouses|a site of low-gravity manufacturing plants|used for low-temperature crystallization manufacturing|collection site for rare gasses]. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication.)"
+        },
+        {
+            "name":"{stargate} Station",
+            "seed":"PhooyGetTheseOutsideOfTheMoonsAlreadyYeesh",
+            "count":13,
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"{previous}",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.1, 0.2],
+            "semiMajorAxis":[1.6, 2.8],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.02,
+            "desc":"An space station around {parent}, it is [a communications relay|a small stop to refuel|a [moderately sized|large|small] depo and shipping center|the center of operations for local security|the command station for a local company's operations. They operate in this area providing [industrial shipping services|emergency medical services|search and rescue services|mining operations|construction service|custom space-grade fabrication services|starship mantinence services]. Customers give it a [one|two|three|three|four|four|five] star rating|a community center with bars, shops, hotels, and other luxuries. It is known for [its nightlife|its exotic shopping|a great masseuse|a store that sells excellent [alcohol|couches|tables|electronics|coffee]]]. It is in [good|good|good|poor] repair, and is considered a [safe|hazardous|friendly|dangerous|cozy|disquieting] place to visit. \n\nJurisdiction: Imperial"
+        },
+        
+
+
+        {
+            "name":"Kirnoff",
+            "mass":10000000,
+            "radius":41,
+            "color":"#ffbb00",
+            "type":"planet",
+            "parent":"Grian",
+
+            "anomaly":45,
+            "eccentricity":0.04536,
+            "semiMajorAxis":2300,
+            "baseAngle":15,
+
+            "pathWeight":3,
+            "desc":"A large gas giant, Kiernoff is mostly Hydrogen and Helium, and has very turbulent weather. Due to its distance from Grian, it and its moons are not inhabited. There is much opportunity for development. \n\nJurisdiction: Imperial\nHabitability:Spaghettification"
+        },
+        {
+            "name":"Kirnoff-[roman:[increment]]",
+            "seed":"BlastOffFreedom7",
+            "count":[8,20],
+            "incremental":true,
+            "incremental_max":30,
+            "mass":10000,
+            "radius":[0.5,3],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Kirnoff",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.0125,0.2],
+            "semiMajorAxis":[30,200],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.1,
+            "desc":"A moon of Kirnoff, this body is uninhabited. It is a[ rocky body, with [heavy volcanic activity|a heavily cratered surface|seas of liquid methane|a light dusting of frozen water and liquid oxygen rain]|n icy body, with [subsurface liquid oceans [hosting life|devoid of life|that might contain life|thick with salt and minerals|that erupt to the surface in cryo-volcanoes]|fantastic ice ridges and large craters|heavy cracks across the surface from internal expansion|a lumpy surface from a core spinning faster than the crust]]. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication.)"
+        },
+
+
+        {
+            "name":"Tyco Pumpary",
+            "seed":"getToTheEdgeAlready!",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Daphnis",
+            "pathWeight":0.002,
+            "desc":"A location on {parent}, Tyco Pumpary pumpes phosphorus-rich brine from the subsurface ocean, refines the phosphorus, and returns the remaining brine to the subsurface ocean. The phosphorus is shipped off-world by the various companies that manage Tyco Pumpary.",
+            "gmhidden":true,
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Dubbran City",
+            "seed":"asdfh",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is a large and important place.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Killick City",
+            "seed":"SophisticatedPotatoeGirl",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is the capitol of Iuvernia. It is the second largest city.",
+            "gmnote":"This is where the Maddigans live.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Doonaha City",
+            "seed":"2",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is a large and important place.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Mostrim City",
+            "seed":"sfgh",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is a large and important place.",
+            "gmnote":"This is where the orphans are.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Lisheenaguile City",
+            "seed":"6",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is the largest city on Iuvernia.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        {
+            "name":"Duncormic City",
+            "seed":"7",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":"in_parent_radius",
+            "type":"PlanetaryLocation",
+            "parent":"Iuvernia",
+            "pathWeight":0.002,
+            "desc":"A City on {parent}, {name} is a large and important place.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        },
+        
+
+
+
+        {
+            "name":"ASTR-273#######",
+            "count":[50,150],
+            "mass":1000,
+            "radius":[0.1,0.3],
+            "color":"#919191",
+            "type":"asteroid",
+            "parent":"Grian",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.125,0.3],
+            "semiMajorAxis":[250,350],
+            "baseAngle":[0, 360],
+            "priority":-1,
+
+            "pathWeight":0.01,
+            "desc":"A sub-Drollian asteroid, this blob of hot rock whirls around very close to Grian. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as artificial gravity and solar radiation shielding.)"
+        },
+        {
+            "name":"COMT-294#######",
+            "count":[20,60],
+            "mass":1000,
+            "radius":[0.1,0.3],
+            "color":"#8eabbd",
+            "type":"comet",
+            "parent":"Grian",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.8,0.9999],
+            "semiMajorAxis":[1600,2800],
+            "baseAngle":[0, 360],
+            "priority":-2,
+
+            "pathWeight":0.01,
+            "desc":"A Comet, this blob of rock, ice, and gas whirls around Grian in highly eccentric orbit. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as artificial gravity and solar radiation shielding. Must be able to withstand high temperature changes, violent offgassing, and unstable surfaces.)"
+        }
+   ],
+
+   "routes":[
+        {
+            "start":"Doonaha City",
+            "end":"Killick City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Doonaha City",
+            "end":"Lisheenaguile City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Killick City",
+            "end":"Dubbran City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Killick City",
+            "end":"Duncormic City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Dubbran City",
+            "end":"Duncormic City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Mostrim City",
+            "end":"Duncormic City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true
+        },
+        {
+            "start":"Lisheenaguile City",
+            "end":"Mostrim City",
+            "color":"#bebebe",
+            "thickness":0.005,
+            "circle_ends":true,
+            "draw_after_bodies":true,
+            "style":"dotted",
+            "pattern":"__-.-__ "
+        }
+   ],
+
+   "background":{
+        "stars":true,
+        "star_count":[250,350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+        ]
+   }
+}

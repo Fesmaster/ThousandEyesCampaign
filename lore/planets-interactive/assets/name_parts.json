@@ -1,0 +1,50 @@
+{
+    "real":[
+        "Phobos","Deimos","Io","Europa","Ganymede","Callisto","Amalthea","Himalia","Elara","Pasiphae","Sinope","Lysithea","Carme","Ananke","Leda","Thebe","Adrastea","Metis","Callirrhoe","Themisto","Megaclite",
+        "Taygete","Chaldene","Harpalyke","Kalyke","Iocaste","Erinome","Isonoe","Praxidike","Autonoe","Thyone","Hermippe","Aitne","Eurydome","Euanthe","Euporie","Orthosie","Sponde","Kale","Pasithee","Hegemone",
+        "Mneme","Aoede","Thelxinoe","Arche","Kallichore","Helike","Carpo","Eukelade","Cyllene","Kore","Herse","Dia","Eirene","Philophrosyne","Eupheme","Valetudo","Pandia","Ersa","Mimas","Enceladus","Tethys",
+        "Dione","Rhea","Titan","Hyperion","Iapetus","Phoebe","Janus","Epimetheus","Helene","Telesto","Calypso","Atlas","Prometheus","Pandora","Pan","Ymir","Paaliaq","Tarvos","Ijiraq","Suttungr","Kiviuq","Mundilfari",
+        "Albiorix","Skathi","Erriapus","Siarnaq","Thrymr","Narvi","Methone","Pallene","Polydeuces","Daphnis","Aegir","Bebhionn","Bergelmir","Bestla","Farbauti","Fenrir","Fornjot","Hati","Hyrrokkin","Kari","Loge",
+        "Skoll","Surtur","Anthe","Jarnsaxa","Greip","Tarqeq","Aegaeon","Gridr","Angrboda","Skrymir","Gerd","Eggther","Beli","Gunnlod","Thiazzi","Alvaldi","Geirrod","Ariel","Umbriel","Titania","Oberon","Miranda",
+        "Cordelia","Ophelia","Bianca","Cressida","Desdemona","Juliet","Portia","Rosalind","Belinda","Puck","Caliban","Sycorax","Prospero","Setebos","Stephano","Trinculo","Francisco","Margaret","Ferdinand",
+        "Perdita","Mab","Cupid","Triton","Nereid","Naiad","Thalassa","Despina","Galatea","Larissa","Proteus","Halimede","Psamathe","Sao","Laomedeia","Neso","Hippocamp","Vanth","Charon","Nix","Hydra","Kerberos","Styx",
+        "Actaea","Hi'iaka","Namaka","Weywot","Ilmarë","Xiangliu","Dysnomia"
+    ],
+    
+    "starwars":[
+        "Abafar","Agamar","Ahch-To","Ajan Kloss","Akiva","Alderaan","Aldhani","Aleen","Alzoc III","Anaxes","Ando","Anoat","Atollon","Barton 4","Balnab","Batuu","Bespin","Bogano","Bracca","Cantonica","Castilon","Cato Neimoidia",
+        "Chandrila","Christophsis","Concord Dawn","Corellia","Star Wars Legends:","Coruscant","Crait","Daiyu","D'Qar","Dagobah","Dantooine","Dathomir","Devaron","Eadu","Endor","Endor (Sanctuary)","Er'kit","Eriadu","Esseles",
+        "Exegol","Felucia","Ferrix","Florrum","Fondor","Geonosis","Hosnian Prime","Hoth","Iego","Ilum","Iridonia","Jabiim","Jakku","Jedha","Jelucan","Jestefad","Kamino","Kashyyyk","Kef Bir","Kessel","Kijimi","Kuat","Lah'mu",
+        "Lothal","Lotho Minor","Malachor","Malastare","Mandalore","Mapuzo","Maridun","Mimban","Mon Cala","Moraband","Mortis","Mustafar","Mygeeto","Naboo","Nal Hutta","Nevarro","Niamos","Numidian Prime","Nur","Onderon",
+        "Ord Mantell","Ossus","Pasaana","Pillio","Polis Massa","Rishi","Rodia","Rugosa","Ruusan","Ryloth","Saleucami","Savareen","Scarif","Serenno","Shili","Sissubo","Skako Minor","Sorgan","Subterrel","Sullust","Takodana",
+        "Tatooine","Teth","Toydaria","Trandosha","Umbara","Utapau","Vandor-1","Vardos","Wobani","Wrea","Yavin","Yavin 4","Zeffo","Zygerria","Abregado-rae","Ambria","Anoth","Arkania","Bakura","Bonadan'","Borleias","Byss",
+        "Carida","Da Soocha V","Drall","Dromund Kaas","Dxun","Hapes","Honoghr","Ithor","J't'p'tan","Khomm","Korriban","Kothlis","Lwhekk","Muunilinst","Myrkr","N'zoth","Nkllon","Ralltiir","Rattatak","Sacorria","Selonia",
+        "Thyferra","Toprawa","Vortex","Wayland","Zonama Sekot"
+    ],
+    
+    "dune":[
+        "Anbus","Al Dhanab","Alpha Corvus","Arrakis ","Rakis","Arbelough","Artisia","Atar","Balut","Barandiko","Beakkal","Bela Tegeuse","Biarek","Buzzell","Caladan ","Delta Pavonis","Dan","Cedon","Chapterhouse","Chusuk",
+        "Corrin","Crompton","Dur","Ecaz","Enfiel","Gaar","Galicia","Gamont","Gansireed","Giedi Prime","Gammu","Ginaz","Grumman","Hagal","Harmonthep","Hessra","Ishkal","Ishia","Ix ","Rodale ","Xuttah","Junction","Kolhar",
+        "Kaitain","Kirana","Komider","Kronin","Lampadas","Lankiveil","Lernaeus","Markon","Niushe","Nossus","Novebruns","Naraj","Otorio","Parella","Parmentier","Pilargo","Pincknon","Ponciard","Poritrin","Quadra","Reenol",
+        "Relicon","Renditai","Richese","Roc","Romo","Ros-Jal","Rossak","Salusa Secundus","Semboule","Seneca","Seprek","Sikun","Souci","Synchrony","Tarahell","Tleilax","Thulax","Tleilaxa","Tupile","Ularda","Vertree Colony",
+        "Walgis","Wallach","Chapterhouse","Xuttah","Yardin","Zanbar","Zanovar"
+    ],
+    
+    "hitchhiker":[
+        "Algol","Allosimanius Syneca","Argabuthon","Arkintoofle Minor","Artifactovol","Bethselamin","Brequinda","Brontitall","Ciceronicus","Damogran","Dangrabad Beta","Eroticon","Esflovian","Fallia","Folfanga","Frastra",
+        "Golgafrincham","Hastromil","Kakrafoon","Jaglan Beta","Kria","Krikkit","Magrathea","Maximegalon","New Betel","Poghril","Preliumtarn","Santraginus","Sesefras Magna","Epun","Squornshellous Zeta","Stavromula","Viltvodle",
+        "Vogsphere","Zentalquabula"
+    ],
+    
+    "stargate":[
+        "Abydos","Abzu","Adara","Adjo","Adora","Aegis","Aemonus","Agnos","Akhet","Akita","Akkad","Alaris","Alava","Aldan","Altair","Amarna","Amduat","Amon Shek","Amra","Anava","Anima Vitrus","Annwn","Arbella","Arcadia",
+        "Ardena","Argos","Aschen","Ascretta","Asdad","Asuras","Athos","Atraxia","Atropos","Atura","Aurelis","Avnil","Azencoor","Balar","Banto","Belkan","Belote","Belsa","Boreas","Bubastis","Cal Mah","Calai","Callandra",
+        "Camelot","Cartago","Castiana","Khenti","Celzin","Cerador","Chalcis","Charos","Chodawwa","Chulak","Cimmeria","Co'rak","Dagan","Dakara","Dalera","Dar Eshkalon","Dashani","Delmak","Delos","Dendera","Dendred","Denngal",
+        "Doranda","Edora","Edowin","Eëa","Eldeore","Emain Abhlach","Endiku","Enkara","Entac","Eraavis","Erebus","Eriu","Eshet","Eskal","Ethlos","Euronda","Gadmeer","Galar","Gallicia","Garuda","Gemmond","Genii","Ghanaz",
+        "Gleanavar","Golla","Goranak","Gualun","Hadante","Haidon","Hak'tyl","Halcyon","Hanka","Harset","Haven","Hebridan","Heliopolis","Heramos","Herevah","Herilia","Heruun","Hidoma","Himmel","Hoff","Holdfast","Holdus",
+        "Hou Kainga","Hrath","Ignis","Ihpet","Infernos","Inferra","Irkalla","Ivanna","Jardia","Javabli","Jebanna","Jenev","Juna","K'kaa","K'tau","Kadesh","Kallana","Kalydon","Kandara","Kar'tek","Karra","Katana","Kawawn",
+        "Kheb","Khlem","Kinahhi","Kraan","Krall","Kresh'ta","Kreshnor","Krophchek","Kunlun","Kyoto","Kytos","L'Kresha","Lamora","Langara","Lantea","Latira","Latona","Lekanos","Leonops","Letopolis","Levanna","Lira-ke","Longinus",
+        "Magtireth","Mahg'ba'tahn","Malkshur","Manaria","Marloon","Melia","Memphis","Men'fa","Meronat","Metztli","Mito","Motai","Mykena Quattuor","Nagasamir","Naha","Naitac","Naltoros","Naranjan","Nasya","Natalplein","Necropolis",
+        "Neone","Ner'ald","Olesia","Polrusso","Proculus","Radek Colubia","Riva","Santhal","Sarif Sur","Sateda","Sorth","Talus","Taranis","Teseirit","Thenora","Trictinia","Vedeena","Vell","Versall","Visnareth Asnivan","Vohl","Wland"
+    ]
+}
