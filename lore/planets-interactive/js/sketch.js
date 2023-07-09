@@ -744,7 +744,7 @@ function DrawStatsTextBlock(){
     }
 
     if (bShowHelp) {
-        text (HELP_TEXT, 24, 24*5, third, height-24*6);
+        text (HELP_TEXT, 24, 24*5, width/3, height-24*6);
     }
     else{
         text ("Press '?' to show help.", 24, 24*5);
