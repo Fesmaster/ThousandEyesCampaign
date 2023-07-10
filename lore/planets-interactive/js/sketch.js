@@ -570,6 +570,7 @@ function URL_Button_Draw_Function(){
         textSize(16);
         strokeWeight(0.1);
         text("Go To Body Page", this.pos.x, this.pos.y+8, this.scale.x, this.scale.y);
+        return;
     }
     //invisible
     this.pos.x = 2*width/3+48;
