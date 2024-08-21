@@ -1,0 +1,295 @@
+{
+    "seed":"GreatestKingdomInTheEmpire",
+
+    "bodies":[
+        {
+            "name":"Argus",
+            "mass":1000000000000,
+            "radius":95,
+            "color":"#ffd82c",
+            "type":"star",
+            "pos":{"x":0,"y":0},
+            "desc":"Argus, a large star, stands at the center of the Argile System, brining heat and light to it."
+        },
+        {
+            "name":"Lovux",
+            "mass":10000000,
+            "radius":7.88,
+            "color":"#cbe91f",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":120,
+
+            "pathWeight":0.7,
+            "desc":"Lovux is a large gas giant near Argus. No moons ever formed, due to being easily melted. \n\nJurisdiction: Imperial\nHabitability: Not"
+        },
+        {
+            "name":"Grovat",
+            "mass":2000000,
+            "radius":2.08,
+            "color":"#c96e39",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":420,
+
+            "pathWeight":0.5,
+            "desc":"Grovat is a small rocky planet that is far too hot to survive on the surface. However, there are a number of underground cities. The high gravity helps some industrial processes.\n\nJurisdiction: Grovat\nHabitability: Hazardous (requires specialized structures and limited exposure time.)"
+        },
+        {
+            "name":"Maltessa",
+            "mass":1200000,
+            "radius":1.12,
+            "color":"#42eeb5",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":550,
+
+            "pathWeight":0.5,
+            "desc":"Maltessa is a terraformed world, but many of the older structures are still designed for when it was not breathable outside. Manufacturing industries have a good home here. Large seas make this planet a gold mine for fishing, particularly since all the fish are stocked. Recently, new species appear to have evolved on the surface without anyone noticing.\n\nJurisdiction: Maltessa\nHabitability: Fully habitable."
+        },
+        {
+            "name":"Argile",
+            "mass":1100000,
+            "radius":1.35,
+            "color":"#3acc16",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":620,
+
+            "pathWeight":0.5,
+            "desc":"Argile is one of the five Core Worlds. Rich, filled with cities and businesses. Almost every major Business has its headquarters here, due to the extremely favorable laws. Its also the only monarchy in the Empire. \n\nJurisdiction: Argile\nHabitability: Fully habitable."
+        },
+        {
+            "name":"Nukelos",
+            "mass":31000,
+            "radius":0.35,
+            "color":"#2b611d",
+            "type":"moon",
+            "parent":"Argile",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":7,
+
+            "pathWeight":0.125,
+            "desc":"The forest moon of Argile, Nukelos is technically independent from Argile's kingdom. Its not a particularly developed world, but its paper mills produce most of the paper and cardboard used in the Empire. \n\nJurisdiction: Nukelos\nHabitability: Fully habitable."
+        },
+        {
+            "name":"Shnoppa",
+            "mass":21000,
+            "radius":0.23,
+            "color":"#6b6262",
+            "type":"moon",
+            "parent":"Argile",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.22],
+            "semiMajorAxis":11,
+
+            "pathWeight":0.1,
+            "desc":"A more distant moon of Argile, Shnoppa is not independent. Like many moons, it is airless and has minimal colonies. Its a major source of Tin, however. Shnoppa's main feature is a massive crater that makes it look like someone took a bite out of it from Argile, when the angle is right. \n\nJurisdiction: Argile\nHabitability: Airless. Special equipment needed."
+        },
+        {
+            "name":"Vothis-Ur",
+            "mass":38000000,
+            "radius":17.9,
+            "color":"#e9dd38",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":1120,
+
+            "pathWeight":0.8,
+            "desc":"Vothis-Ur is the first of three large gas giants in the Argile system. It has a surprisingly few number of moons: 1. \n\nJurisdiction: Killiandra\nHabitability: Not."
+        },
+        {
+            "name":"Killiandra",
+            "mass":21000,
+            "radius":0.23,
+            "color":"#491bf1",
+            "type":"moon",
+            "parent":"Vothis-Ur",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.22],
+            "semiMajorAxis":21,
+
+            "pathWeight":0.1,
+            "desc":"The singular moon of Vothis-Ur, Killiandra is heavily populated. Both a series of solar mirrors and the geothermal heat caused by the gravity of Vothis-Ur keep the planet warm enough for a ocean of salty brine to exist on the surface. Average temperatures are near freezing all year long. \n\nJurisdiction: Killiandra\nHabitability: Habitable but cold. Bring a sweater."
+        },
+        {
+            "name":"Kalaman",
+            "mass":58000000,
+            "radius":19.3,
+            "color":"#e9b138",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":1750,
+
+            "pathWeight":0.8,
+            "desc":"Kalaman is the largest gas giant in the Argile system. \n\nJurisdiction: Imperial\nHabitability: Not."
+        },
+        {
+            "name":"{planetlike}",
+            "seed":"KalamanIsVeryFat",
+            "count":[7,12],
+            "incremental":true,
+            "incremental_min":8,
+            "incremental_max":20,
+            "mass":10000,
+            "radius":[0.5,3],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Kalaman",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.0125,0.15],
+            "semiMajorAxis":[25,160],
+            "baseAngle":[0, 360],
+            "append_orbit_to_desc":true,
+
+            "pathWeight":0.1,
+            "desc":"A moon of Kalaman, {name} is [unpopulated|unpopulated|unpopulated|unpopulated|unpopulated|lightly populated with a few settlements, and does not have much industry|populated. Major industries of this moon include: [{industry_generator}|{industry_generator} and {industry_generator}]].\n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication.)"
+        },
+        {
+            "name":"{greeklike} Station",
+            "seed":"<station_seed_here>",
+            "count":4,
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"{previous}",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.1, 0.2],
+            "semiMajorAxis":[1.6, 2.8],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.02,
+            "desc":"An space station around {parent}, it is a {station_types}. It is in [good|good|good|poor] repair, and is considered a [safe|hazardous|friendly|dangerous|cozy|disquieting] place to visit. \n\nJurisdiction: Imperial"
+        },
+        {
+            "name":"Nalva",
+            "mass":18000000,
+            "radius":11.0,
+            "color":"#e9b138",
+            "type":"planet",
+            "parent":"Argus",
+
+            "anomaly":[0,360],
+            "eccentricity":[0.01,0.12],
+            "semiMajorAxis":2550,
+
+            "pathWeight":0.8,
+            "desc":"Nalva, the smallest gas giant in the Argile system, is an eyeball planet. It is tidally locked, and spins on its axis that faces the sun (technically giving it two separate axis of rotation). This gives the planet intense weather and a distinct eyeball-like visual. \n\nJurisdiction: Imperial\nHabitability: Not."
+        },
+        {
+            "name":"{planetlike}",
+            "seed":"NalvaIsNotFat",
+            "count":[4,7],
+            "incremental":true,
+            "incremental_min":8,
+            "incremental_max":20,
+            "mass":10000,
+            "radius":[0.5,3],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Nalva",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.0125,0.15],
+            "semiMajorAxis":[25,100],
+            "baseAngle":[0, 360],
+            "append_orbit_to_desc":true,
+
+            "pathWeight":0.1,
+            "desc":"A moon of Nalva, {name} is [unpopulated|unpopulated|unpopulated|unpopulated|unpopulated|unpopulated|unpopulated|has ruins of failed colonies|has a colony, but its very small].\n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication.)"
+        },
+        {
+            "name":"{greeklike} Station",
+            "seed":"<station_seed_here>",
+            "count":3,
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"{previous}",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.1, 0.2],
+            "semiMajorAxis":[1.6, 2.8],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.02,
+            "desc":"An space station around {parent}, it is a {station_types}. It is in [good|good|good|poor] repair, and is considered a [safe|hazardous|friendly|dangerous|cozy|disquieting] place to visit. \n\nJurisdiction: Imperial"
+        },
+        
+        
+        {
+            "name":"ASTR-273#######",
+            "count":[20,50],
+            "mass":1000,
+            "radius":[0.1,0.3],
+            "color":"#919191",
+            "type":"asteroid",
+            "parent":"Argus",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.125,0.3],
+            "semiMajorAxis":[250,350],
+            "baseAngle":[0, 360],
+            "priority":-1,
+
+            "pathWeight":0.01,
+            "desc":"An Asteroid, this blob of hot rock whirls around in the inner system. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as artificial gravity and solar radiation shielding.)"
+        },
+        {
+            "name":"COMT-294#######",
+            "count":[10,30],
+            "mass":1000,
+            "radius":[0.1,0.3],
+            "color":"#8eabbd",
+            "type":"comet",
+            "parent":"Argus",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.8,0.9999],
+            "semiMajorAxis":[1600,2800],
+            "baseAngle":[0, 360],
+            "priority":-2,
+
+            "pathWeight":0.01,
+            "desc":"A Comet, this blob of rock, ice, and gas whirls around Argus in highly eccentric orbit. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires pressurized structures and suits, as well as artificial gravity and solar radiation shielding. Must be able to withstand high temperature changes, violent offgassing, and unstable surfaces.)"
+        }
+    ],
+
+    "routes":[
+
+    ],
+
+    "background":{
+        "stars":true,
+        "star_count":[250,350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+        ]
+    }
+}

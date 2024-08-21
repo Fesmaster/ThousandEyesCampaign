@@ -399,7 +399,23 @@
 			"desc":"Data Not Avalable",
 			"href":"https://fesmaster.github.io/ThousandEyesCampaign/lore/planets/harmony.html"
 		},
-
+        {
+			"name":"Leidos",
+			"pos":{"x":107,"y":22},
+			"visuals":[
+                {
+                    "form":"image",
+                    "image":"assets/star_yellow.png",
+                    "nostroke":true,
+                    "nofill":true,
+                    "width":1,
+                    "height":1
+                }
+            ],
+            "type":"secret system",
+			"radius":0.6,
+			"desc":"===CLASSIFIED===\n\nLeidos is the secret location of the Forge, a Dyson Sphere that is being built by the Avarian Spaceforce under the command of the Bercolli. family.\n\n====NOT FOR PUBLIC DISTRIBUTION===="
+		},
 
 
         {
@@ -422,6 +438,14 @@
 		}
     ],
     "routes":[
+        {
+			"start":"Noctis",
+			"end":"Leidos",
+            "color":"#ca7300",
+            "thickness":0.15,
+            "circle_ends":true,
+            "draw_after_bodies":false
+		},
         {
 			"start":"Ettenweil",
 			"end":"Tel-Avan",
@@ -616,6 +640,7 @@
             "circle_ends":true,
             "draw_after_bodies":false
 		}
+        
     ],
     "background":{
         "stars":true,

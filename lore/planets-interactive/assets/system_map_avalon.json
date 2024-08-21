@@ -1,0 +1,186 @@
+{
+    "seed":"Its the Center of the Empire BOYSS!!!",
+
+    "bodies":[
+        {
+            "name":"Aora",
+            "mass":100000000000,
+            "radius":95,
+            "color":"#ffeb33",
+            "type":"star",
+            "pos":{"x":0,"y":0},
+            "desc":"Aora, a brilliant star, is the home star of the Avalon system. It was in the light of Aora that the first Avarians walked."
+        },
+        {
+            "name":"Sendel",
+            "mass":1000000,
+            "radius":2.67,
+            "color":"#9b5730",
+            "type":"planet",
+            "parent":"Aora",
+
+            "anomaly":[0,360],
+            "eccentricity":0.125,
+            "semiMajorAxis":370,
+
+            "pathWeight":0.5,
+            "desc":"Sendel has been mined to the bone. The small sphere of waste rock is still picked over by scavengers, hunting for the last remains of valuable minerals. High levels of heat and radiation blanket the planet, remnants of its past heavy with mining and abuse. \n\nJurisdiction: Imperial\nHabitability:Hazardous (requires specialized structures and limited exposure time.)"
+        },
+        {
+            "name":"Kriis",
+            "mass":10000,
+            "radius":1.27,
+            "color":"#6b5446",
+            "type":"planet",
+            "parent":"Aora",
+
+            "anomaly":[0,360],
+            "eccentricity":0.006,
+            "semiMajorAxis":480,
+
+            "pathWeight":0.3,
+            "desc":"Kriis is a desolate rock in the middle of Space. Yet, it is habited. Perks of being a small planet near in the core system of the Empire. Kriss has several cities, all built inside pressurized domes. Despite its small size, it has a decent magnetosphere, due to a number of energetic minerals. These minerals were once mined, but technology moved quickly enough that they became significantly less valuable than other types of power.\n\nJurisdiction: Kriss\nHabitability:Difficult (requires pressurized structures and light reduction)"
+        },
+        {
+            "name":"Avalon",
+            "mass":10000,
+            "radius":3.8,
+            "color":"#c700ce",
+            "type":"planet",
+            "parent":"Aora",
+
+            "anomaly":[0,360],
+            "eccentricity":0.0006,
+            "semiMajorAxis":680,
+
+            "pathWeight":0.5,
+            "desc":"Avalon, the center of the Empire. Birthplace of the Avarians. This planet calls to all Avarians that visit it. Wide fields of purple vegetation and white sands, crystal clear cyan waters, and skys as blue and sapphire. At 0',0' stands the great city of Acheron, the capitol of the Empire and the Center of the Known World. Its star-shaped boundaries can be seen, faintly, from orbit.\n\nJurisdiction: Avalon"
+        },
+        {
+            "name":"{greeklike} Station",
+            "seed":"standbyToLand",
+            "count":8,
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"Avalon",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.01, 0.02],
+            "semiMajorAxis":[2.7, 3.8],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.02,
+            "desc":"An space station around {parent}, it is a {station_types}. It is in [good|good|good|poor] repair, and is considered a [safe|hazardous|friendly|dangerous|cozy|disquieting] place to visit. \n\nJurisdiction: Avalon"
+        },
+
+        {
+            "name":"Laathat",
+            "mass":60000,
+            "radius":2.5,
+            "color":"#2ff8ff",
+            "type":"planet",
+            "parent":"Aora",
+
+            "anomaly":[0,360],
+            "eccentricity":0.001,
+            "semiMajorAxis":720,
+
+            "pathWeight":0.3,
+            "desc":"Further out than Avalon, Laathat lies at the edge of the habitable zone. Its heavily populated, though most of the citizens live entirely indoors. The equator of the planet has an environment that is below freezing for 2/3 of the year, and it just gets colder from there.\n\nJurisdiction: Laathat"
+        },
+        {
+            "name":"Orana",
+            "mass":100000000,
+            "radius":18,
+            "color":"#eec041",
+            "type":"planet",
+            "parent":"Aora",
+
+            "anomaly":[0,360],
+            "eccentricity":0.02,
+            "semiMajorAxis":1330,
+
+            "pathWeight":2,
+            "desc":"A large gas giant in the Avalon System, Orana has numerous moons, many of which are inhabited. They have a collective jurisdiction, due to having enough populace together and not enough apart.\n\nJurisdiction: Orana Collective"
+        },
+        {
+            "name":"{donjon}",
+            "seed":"ItsOranaOK?",
+            "count":[7,12],
+            "incremental":true,
+            "incremental_max":20,
+            "incremental_min":4,
+            "mass":10000,
+            "radius":[0.5,3],
+            "color":["#e6e6e6", "#383838"],
+            "type":"moon",
+            "parent":"Orana",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.0125,0.2],
+            "semiMajorAxis":[25,100],
+            "baseAngle":[0, 360],
+            "append_orbit_to_desc":true,
+
+            "pathWeight":0.1,
+            "desc":"A moon of Orana, {name} is [populated|populated|populated|populated|populated|populated|heavily populated|heavily populated|meagerly populated|meagerly populated|unpopulated]. Major industries of this moon include: {industry_generator} and {industry_generator}\n\nJurisdiction: Orana Collective\nHabitability:Hazardous (requires pressurized structures and suits, as well as thermal insulation and light multiplication.)"
+        },
+        {
+            "name":"{greeklike} Station",
+            "seed":"absalom??",
+            "count":16,
+            "mass":10,
+            "radius":0.1,
+            "color":"#ffffff",
+            "type":"station",
+            "parent":"{previous}",
+
+            "anomaly":[0, 360],
+            "eccentricity":[0.1, 0.2],
+            "semiMajorAxis":[1.6, 2.8],
+            "baseAngle":[0, 360],
+
+            "pathWeight":0.02,
+            "desc":"An space station around {parent}, it is a {station_types}. It is in [good|good|good|poor] repair, and is considered a [safe|hazardous|friendly|dangerous|cozy|disquieting] place to visit. \n\nJurisdiction: Orana Collective"
+        },
+
+
+
+        {
+            "name":"Acheron",
+            "mass":1,
+            "radius":0.03,
+            "color":"#FFFFFF",
+            "pos":{"x":-1.5,"y":0},
+            "type":"PlanetaryLocation",
+            "parent":"Avalon",
+            "pathWeight":0.004,
+            "desc":"The Great City of Acheron, Capitol of the Empire, Center of the Known World. See it and marvel in its Majesty. A city like no other, Acheron stands, a warden against the decay of time, the wild forces of the dark, and the corruption of men's hearts.",
+            "visuals":[
+                {
+                    "form":"triangle",
+                    "fill":"#ffffff",
+                    "stroke":"#040404",
+                    "width":1,
+                    "height":1,
+                    "angle":0,
+                    "strokeWeight":0.01
+                }
+            ]
+        }
+    ],
+
+    "routes":[
+
+    ],
+
+    "background":{
+        "stars":true,
+        "star_count":[250,350],
+        "star_color":["#8ba5a4", "#ffdcee"],
+        "elements":[
+        ]
+    }
+}

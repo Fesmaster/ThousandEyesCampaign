@@ -1,4 +1,4 @@
-# Avalon WIP
+# Avalon
 Capitol of the Empire, the planet Avalon is the original homeworld of the Ariveros Race. It is a suitably strange place, boasting impressive purple foliage in its plants instead of the typical green. 
 
 However, the planet Avalon is not the only inhabited planet or location in the Avalon System. 

@@ -1984,13 +1984,20 @@ class Body {
         newName = newName.replace(/\[parent\]/gi, function(x){
             return ""+parent;
         })
-        newName = newName.replace(/{([a-z]+)}/gi, function(x, y){
-            if (NamePart[y] == undefined){
-                console.log("ERROR: Unable to us a dynamic name part of: '" +y+"'. Not defined in "+NamePartFilePath);
-                return ""+x
-            }
-            return ""+NamePart[y][Math.floor(rand()*NamePart[y].length)%NamePart[y].length];
-        })
+        
+        let did_perform_replacement = true
+        while(did_perform_replacement === true){
+            did_perform_replacement = false;
+            newName = newName.replace(/{([a-z_]+)}/gi, function(x, y){
+                did_perform_replacement = true
+                if (NamePart[y] == undefined){
+                    console.log("ERROR: Unable to us a dynamic name part of: '" +y+"'. Not defined in "+NamePartFilePath);
+                    return ""+x
+                }
+                return ""+NamePart[y][Math.floor(rand()*NamePart[y].length)%NamePart[y].length];
+            })
+        }
+
         newName = newName.replace(/\[increment\]/gi, function(x){
             return ""+increment;
         })
@@ -2059,6 +2066,19 @@ class Body {
         })
 
         let did_perform_replacement = true
+        while(did_perform_replacement === true){
+            did_perform_replacement = false;
+            newDesc = newDesc.replace(/{([a-z_]+)}/gi, function(x, y){
+                did_perform_replacement = true
+                if (NamePart[y] == undefined){
+                    console.log("ERROR: Unable to us a dynamic name part of: '" +y+"'. Not defined in "+NamePartFilePath);
+                    return ""+x
+                }
+                return ""+NamePart[y][Math.floor(rand()*NamePart[y].length)%NamePart[y].length];
+            })
+        }
+        
+        did_perform_replacement = true
         while(did_perform_replacement === true){
             did_perform_replacement = false;
             newDesc = newDesc.replace(/\[([^\[\]]+)\]/gi, function(x, partstring){
